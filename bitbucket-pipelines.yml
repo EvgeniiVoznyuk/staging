@@ -1,0 +1,62 @@
+---
+options:
+  docker: true
+  size: 2x
+
+
+definitions:
+  services:
+    docker:
+      memory: 3072
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: build-production
+          image: node:carbon
+          #          caches:
+          #            - node
+          script:
+            - apt-get update
+            - apt-get install -y gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget
+            - echo ${PRODUCTION_VUE_APP_CONFIG_B64} | base64 --decode --ignore-garbage > vue.config.js
+            - echo ${PRODUCTION_ENVSH} | base64 --decode --ignore-garbage > env.sh
+            - source ./env.sh
+            - printenv
+            - npm install
+            - npm run build
+          artifacts:
+            - dist/**
+      - step:
+          name: deploy-production
+          deployment: production
+          script:
+            - curl -v -o /tmp/helm.tar.gz https://kubernetes-helm.storage.googleapis.com/helm-${HELM_VERSION}-linux-amd64.tar.gz &&  tar -zxvf /tmp/helm.tar.gz -C /tmp/ && mv /tmp/linux-amd64/helm /usr/local/bin/helm
+            - echo ${KUBECONFIG_PRODUCTION_B64} | base64 --decode --ignore-garbage > ${KUBECONFIG}
+            - helm init --client-only
+            - ./deploy.sh upgrade-deploy
+    staging:
+      - step:
+          name: build-staging
+          image: node:carbon
+          #          caches:
+          #            - node
+          script:
+            - apt-get update
+            - apt-get install -y gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget
+            - echo ${STAGING_VUE_APP_CONFIG_B64} | base64 --decode --ignore-garbage > vue.config.js
+            - echo ${STAGING_ENVSH} | base64 --decode --ignore-garbage > env.sh
+            - source ./env.sh
+            - npm install
+            - npm run build
+          artifacts:
+            - dist/**
+      - step:
+          name: deploy-staging
+          deployment: staging
+          script:
+            - curl -v -o /tmp/helm.tar.gz https://kubernetes-helm.storage.googleapis.com/helm-${HELM_VERSION}-linux-amd64.tar.gz &&  tar -zxvf /tmp/helm.tar.gz -C /tmp/ && mv /tmp/linux-amd64/helm /usr/local/bin/helm
+            - echo ${KUBECONFIG_PRODUCTION_B64} | base64 --decode --ignore-garbage > ${KUBECONFIG}
+            - helm init --client-only
+            - ./deploy.sh upgrade-deploy

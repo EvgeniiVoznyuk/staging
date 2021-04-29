@@ -1,0 +1,119 @@
+.vue-tel-input {
+  &:focus-within {
+    box-shadow: none !important;
+  }
+
+  .country-code {
+    color: $grey;
+  }
+
+  .dropdown-arrow {
+    color: $grey;
+  }
+
+  .dropdown {
+    border-radius: 0.25rem 0 0 0.25rem ;
+    transition: background-color 0.2s;
+    border: 1px solid transparent !important;
+    background-color: $black--2;
+
+    &:hover, &.open {
+      background-color: $black--2;
+    }
+
+    &:focus {
+      border-color: $yellow !important;
+      box-shadow: $box-shadow-yellow;
+      outline: none;
+    }
+  }
+
+  ul {
+    border-color: $black;
+    background-color: transparent;
+    border-radius: .25rem;
+    overflow-x: hidden;
+  }
+
+  .dropdown-item {
+    background-color: $black;
+    width: 100%;
+    word-break: break-all;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+
+    strong {
+      font-weight: 400;
+    }
+
+    &:hover, &.highlighted {
+      background-color: $yellow--black;
+    }
+  }
+}
+
+.tel-input {
+  border: 1px solid transparent !important;
+  border-radius: 0 0.25rem 0.25rem 0 !important;
+
+  &::placeholder {
+    color: $grey--dark;
+  }
+
+  &:focus {
+    border-color: $yellow !important;
+    outline: 0;
+    box-shadow: $box-shadow-yellow;
+  }
+
+  &.is-valid {
+    border: 1px solid $success !important;
+  }
+
+  &.is-valid:focus {
+    box-shadow: 0 0 0 0.2rem $success--vague !important;
+  }
+
+  &.is-invalid {
+    border: 1px solid $danger !important;
+  }
+
+  &.is-invalid:focus{
+    box-shadow: 0 0 0 0.2rem $danger--vague !important;
+  }
+}
+
+.tel-input-wrapper {
+  border: 1px solid $black !important;
+  border-radius: 0.25rem !important;
+}
+
+.input-filter {
+  width: 190px !important;
+}
+
+.form-control {
+  &::placeholder {
+    color: $grey--dark;
+  }
+}
+
+.form-control {
+  background-color: $black--2;
+  color: $white;
+
+  &::placeholder {
+    //color: $grey--dark;
+  }
+
+  &:focus {
+    background-color: $black--2;
+    border-color: $yellow;
+    box-shadow: $box-shadow-yellow;
+  }
+
+  &[readonly] {
+    background-color: $black--2;
+  }
+}

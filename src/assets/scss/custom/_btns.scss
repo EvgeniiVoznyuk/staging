@@ -1,0 +1,60 @@
+.btn {
+  font-family: 'Space Mono', monospace;
+  border-radius: 3px;
+
+  &--black {
+    background: $black;
+    color: white;
+    border-color: $black--3;
+
+    &:hover {
+      background: $black--2;
+      border-color: $black--3;
+      color: $yellow;
+      text-decoration: none;
+    }
+
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active, .show > &.dropdown-toggle {
+      background: $black--2;
+      border-color: $black--3;
+      color: $yellow;
+    }
+
+    &:focus, &.focus {
+      box-shadow: $box-shadow-yellow;
+    }
+  }
+
+  &--grey {
+    background: $white;
+    border: 2px solid $grey;
+    color: $grey;
+
+    &:hover {
+      background-color: $yellow;
+      border-color: $yellow;
+      color: $black;
+    }
+
+    &:active,
+    &:not(:disabled):not(.disabled):active {
+      background-color: $yellow--dark;
+      border-color: $yellow--dark;
+      color: $black;
+    }
+  }
+}
+
+button:focus {
+  outline: 5px auto $yellow;
+}
+
+// e.g. copy-text
+.btn-link {
+  color: $yellow;
+  &:hover {
+    text-decoration: none;
+    color: $yellow--dark;
+  }
+}

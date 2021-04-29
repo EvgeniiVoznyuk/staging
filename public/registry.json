@@ -1,0 +1,34 @@
+{
+  "bakerName": "Everstake",
+  "bakerAccount": "tz1MXFrtZoaXckE41bjUCSjAjAap3AFDSr3N",
+  "signupRequired": "false",
+  "country": "Ukraine",
+  "website": "https://everstake.one/tezos",
+  "bakerDescription": "Everstake, your trusted staking partner",
+  "nonStandardPaymentDescription": "",
+  "upcomingPaymentModelDescription": "",
+  "branding": {
+    "logo256": "https://everstake.one/img/Everstake-256.png",
+    "logo1024": "",
+    "logoSvg": ""
+  },
+  "support": {
+    "email": "inbox@everstake.one",
+    "supportUrl": "https://t.me/everstake_chat"
+  },
+  "projects": [
+    {
+      "projectName": "Tezos Ukraine",
+      "projectUrl": "https://tezos.org.ua/"
+    },
+    {
+      "projectName": "First Eastern European Tezos Hackathon",
+      "projectUrl": "https://eeth.one/en"
+    }
+  ],
+  "social": {
+    "telegram": "https://t.me/everstake_chat",
+    "twitter": "https://twitter.com/everstake_pool"
+  },
+  "team": []
+}

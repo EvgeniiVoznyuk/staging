@@ -1,0 +1,28 @@
+.ps > .ps__scrollbar-x-rail,
+.ps > .ps__scrollbar-y-rail {
+  opacity: 0.6 !important;
+  display: block !important;
+}
+
+.ps:hover > .ps__scrollbar-x-rail,
+.ps:hover > .ps__scrollbar-y-rail {
+  opacity: initial !important;
+}
+
+.custom-dropdown {
+  // Scrollbar visibitlity
+  .ps > .ps__scrollbar-x-rail,
+  .ps > .ps__scrollbar-y-rail {
+    opacity: 0.6 !important;
+    display: block !important;
+  }
+
+  .ps:hover > .ps__scrollbar-x-rail,
+  .ps:hover > .ps__scrollbar-y-rail {
+    opacity: initial !important;
+  }
+
+  .ps__scrollbar-y {
+    height: 89px !important;
+  }
+}

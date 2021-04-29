@@ -1,0 +1,37 @@
+.grey {
+  color: $grey !important;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.bg-warning {
+  background-color: $yellow !important;
+  color: $black;
+}
+
+.width-134 {
+  width: 134px;
+}
+
+.min-rewards-history-height {
+  min-height: 482px;
+}
+
+.min-rewards-table-height {
+  min-height: 700px;
+}
+
+.min-rewards-chart-height {
+  min-height: 423px;
+}
+
+.min-assets-height {
+  min-height: 291px;
+}
+
+.min-total-staking-height {
+  min-height: 184px;
+}
+

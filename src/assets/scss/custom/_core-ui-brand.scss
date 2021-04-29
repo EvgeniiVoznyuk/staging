@@ -1,0 +1,106 @@
+// Header navbar
+.navbar-nav {
+  .nav-link {
+    color: $white;
+    font-family: 'Space Mono', monospace;
+    transition: color 0.2s;
+
+    &.open, &.active {
+      color: $white;
+    }
+
+    //&:hover, &:focus, &:active, &.open, &.active {
+    &:hover, &:focus, &:active, &.router-link-exact-active {
+      color: $yellow;
+    }
+
+    &.open:hover, &.active:hover,
+    &.open:focus, &.active:focus {
+      color: $yellow;
+    }
+  }
+}
+// End header navbar
+
+// Breadcrumb
+// .c-breadcrumb
+.breadcrumb {
+  background-color: $black;
+  border-bottom: 1px solid transparent;
+  padding: 0.75rem 30px;
+
+  .active {
+    color: $yellow;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+}
+// End breadcrumb
+
+// Card
+.card {
+  background-color: $black;
+  border: $border-yellow--2px;
+}
+
+.card-header {
+  background-color: $black--2;
+  border-bottom: $border-yellow--2px;
+}
+
+.card-footer {
+  background-color: $black--2;
+  border-top: $border-yellow--2px;
+}
+
+.card--alt {
+  background-color: $black--2;
+}
+// End card
+
+.border {
+  border: 1px solid $black--2 !important;
+}
+
+// Modal
+.modal-content {
+  background-color: $black;
+  border: $border-yellow--2px;
+}
+
+.modal-header {
+  border-bottom: $border-yellow--2px;
+}
+
+.close {
+  color: $danger;
+  transition: all 0.2s;
+  text-shadow: none;
+  opacity: 1;
+
+  &:hover {
+    color: $danger--hover;
+    text-shadow: none;
+  }
+}
+// End modal
+
+// Progress bar
+.progress {
+  background-color: $grey--dark;
+}
+// End progress bar
+
+// Badges
+.badge {
+  padding: .5em .8em;
+}
+// End badges

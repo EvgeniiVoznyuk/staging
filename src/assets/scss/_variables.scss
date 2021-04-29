@@ -1,0 +1,38 @@
+// Variable overrides
+
+// Colors
+$white: #fff;
+$white--2: #f2f2f2;
+$grey: #bebebe;
+$grey--dark: #7d7d7d;
+$black: #111111;
+$black--2: #1a1d1f;
+$black--3: #23282c;
+$yellow: #f5be37;
+$yellow--dark: #d39e00;
+//$yellow--black: #645535;
+$yellow--black: #3f3419;
+$success: #4dbd74;
+$blue--light: #8ad4ee;
+$danger: #ff4d4d;
+$danger--hover: #f64846;
+// CoreUi original warning color
+//$warning: #ffc107;
+$warning: $yellow;
+// End colors
+
+// Transparent colors
+$yellow--vague: rgba(245, 190, 55, 0.2);
+$success--vague: rgba(77, 189, 116, 0.25);
+$blue--light--vague: rgba(32, 168, 216, 0.25);
+$danger--vague: rgba(255, 77, 77, 0.25);
+// End transparent colors
+
+// Borders
+$border-yellow--2px: 2px solid $yellow;
+$border-yellow--1px: 1px solid $yellow;
+// End borders
+
+// Box shadows
+$box-shadow-yellow: 0 0 0 0.2rem $yellow--vague;
+// End box shadows

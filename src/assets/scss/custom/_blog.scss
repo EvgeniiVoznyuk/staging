@@ -1,0 +1,71 @@
+// Apply the blog styles globally as they don't work in the respective components
+.image img {
+  max-width: 100%;
+}
+
+.p-container {
+  font-weight: 400;
+
+  a {
+    color: $yellow;
+    font-weight: 700;
+    transition: all 0.2s;
+
+    &:hover {
+      color: $yellow--dark;
+      text-decoration: none;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $black;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+  }
+
+  img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  p, ol, ul {
+    color: $black;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    word-break: break-word;
+  }
+
+  pre {
+    background-color: $black;
+    border: $border-yellow--2px;
+    color: $yellow;
+    padding: 15px;
+
+    span {
+      background-color: $black !important;
+      color: $yellow !important;
+    }
+  }
+}
+
+@media(max-width: 1199px) {
+  .p-container {
+    p, ol, ul {
+      font-size: 16px;
+    }
+  }
+}
+
+@media(max-width: 575px) {
+  .p-container {
+    h3 {
+      font-size: 20px;
+    }
+
+    p, ol, ul {
+      font-size: 14px;
+    }
+  }
+}
+

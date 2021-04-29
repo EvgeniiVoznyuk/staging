@@ -1,0 +1,28 @@
+{
+  "representative": {
+    "logo": {
+      "logo_256": "https://everstake.one/img/Everstake-256.png",
+      "logo_1024": "https://everstake.one/img/Everstake-1024.png",
+      "logo_svg": "https://everstake.one/img/Everstake-logo.svg"
+    },
+    "media": {
+      "steemit": "",
+      "twitter": "https://twitter.com/everstake_pool",
+      "youtube": "",
+      "facebook": "https://www.facebook.com/everstake.one",
+      "github": "https://github.com/everstake",
+      "reddit": "https://www.reddit.com/r/Everstake",
+      "keybase": "everstake",
+      "telegram": "everstake_chat",
+      "wechat": ""
+    }
+  },
+  "server": {
+    "location": {
+      "country": "DEU",
+      "city": "Frankfurt"
+    },
+    "server_type": "",
+    "api_endpoint": "176.9.44.103:9000"
+  }
+}

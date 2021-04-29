@@ -1,0 +1,26 @@
+server {
+  listen 8080 default_server;
+  server_name _;
+
+  root /webroot;
+  index index.html;
+
+  add_header X-Frame-Options "SAMEORIGIN";
+  add_header X-XSS-Protection "1; mode=block";
+  add_header Content-Security-Policy "frame-ancestors 'self'";
+  add_header Referrer-Policy "strict-origin-when-cross-origin";
+
+  location = / {
+    add_header Cache-Control "no-store,no-cache,must-revalidate";
+  }
+
+  location / {
+    try_files $uri $uri/index.html /app.html;
+    add_header Cache-Control "public,max-age=259200,immutable";
+  }
+
+  location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg)$ {
+    expires 7d;
+    add_header Cache-Control "public,max-age=259200,immutable";
+  }
+}

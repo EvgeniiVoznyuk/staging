@@ -1,0 +1,84 @@
+.sidebar {
+  background-color: $black;
+  border-right: $border-yellow--2px;
+  font-family: 'Space Mono', monospace;
+
+  .nav-link {
+    padding: 0.75rem;
+    transition: all 0.2s;
+
+    &.active {
+      background-color: transparent;
+    }
+
+    &:hover {
+      background: $yellow--vague;
+    }
+
+    &.router-link-exact-active {
+      background: $yellow;
+
+      &:hover {
+        background: $yellow;
+      }
+    }
+
+    &.active .nav-icon {
+      color: $white;
+    }
+
+    .nav-icon {
+      color: $white;
+      transition: all 0.2s;
+    }
+  }
+
+  .sidebar-minimizer {
+    background-color: $black--2;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: $yellow--black;
+    }
+  }
+}
+
+.sidebar-minimized {
+  .sidebar {
+    .nav-link {
+      border-right: $border-yellow--2px;
+
+      &:hover {
+        background: $yellow--black;
+      }
+    }
+
+    .nav-item:hover > .nav-link {
+      background: $yellow--black;
+    }
+
+    section :not(.nav-dropdown-items) > .nav-item:last-child::after {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .sidebar-minimized .sidebar .nav > .nav-dropdown:hover {
+    background: $yellow;
+  }
+
+  .sidebar-minimized .sidebar .nav >.nav-dropdown >.nav-dropdown-items {
+    background: $black;
+  }
+
+  .sidebar-minimized .sidebar .sidebar-minimizer {
+    background-color: $black--2;
+    border-right: $border-yellow--2px;
+
+    &:hover {
+      background-color: $yellow--black;
+    }
+  }
+}
+

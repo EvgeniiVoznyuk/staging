@@ -1,0 +1,91 @@
+.custom-dropdown {
+  .btn-group {
+    margin: 0;
+  }
+
+  .btn {
+    padding: 0;
+    color: $white;
+    text-decoration: none;
+    transition: color 0.2s;
+    border: none;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+
+  .dropdown-toggle {
+    &::after {
+      vertical-align: 0.16em;
+    }
+  }
+
+  &.show > .btn {
+    color: $yellow;
+  }
+
+  .dropdown-menu {
+    background-color: $yellow;
+    border: none;
+    border-radius: 0;
+    font-size: 18px;
+    // Place menu under nav elements in the header
+    top: 15px !important;
+    left: 21px !important;
+  }
+
+  .dropdown-item {
+    color: $black;
+    font-weight: 700;
+    transition: all 0.2s;
+    padding: 5px 20px 5px 15px;
+
+    &:hover {
+      background: $yellow--dark;
+    }
+
+    &:active, &:focus {
+      background: $yellow--dark
+    }
+
+    &.router-link-exact-active, &:active {
+      background: $yellow--dark !important;
+    }
+  }
+
+  &--mobile-menu {
+    .dropdown-menu {
+      top: 13px !important;
+    }
+  }
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: $black;
+  background-color: $yellow;
+}
+
+@media (max-width: 1199px) {
+  .custom-dropdown {
+    .dropdown-menu {
+      left: 0 !important;
+    }
+
+    &--account {
+      .dropdown-menu {
+        left: initial !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .custom-dropdown {
+    &--mobile-menu {
+      .dropdown-menu {
+        top: 13px !important;
+      }
+    }
+  }
+}

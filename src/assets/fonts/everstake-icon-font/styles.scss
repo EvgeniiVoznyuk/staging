@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "everstake-icon-font";
+  src:url("~@/assets/fonts/everstake-icon-font/everstake-icon-font.eot");
+  src:url("~@/assets/fonts/everstake-icon-font/everstake-icon-font.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/everstake-icon-font/everstake-icon-font.woff") format("woff"),
+    url("~@/assets/fonts/everstake-icon-font/everstake-icon-font.ttf") format("truetype"),
+    url("~@/assets/fonts/everstake-icon-font/everstake-icon-font.svg#everstake-icon-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomIcons';                /*Specify the new font */
+  src: url('~@/assets/fonts/customIcons/icomoon.eot?#iefix') format('embedded-opentype'), /* IE8 fix. */
+       url('~@/assets/fonts/customIcons/icomoon.ttf'),
+       url('~@/assets/fonts/customIcons/icomoon.eot');
+}
+
+@font-face {
+  font-family: 'MaticZilliqa';                /*Specify the new font */
+  src: url('~@/assets/fonts/maticZilliqaIcons/icomoon.eot?#iefix') format('embedded-opentype'), /* IE8 fix. */
+       url('~@/assets/fonts/maticZilliqaIcons/icomoon.ttf'),
+       url('~@/assets/fonts/maticZilliqaIcons/icomoon.eot');
+}
+
+[data-icon]:before {
+  font-family: "everstake-icon-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ev-"]:before,
+[class*=" ev-"]:before {
+  font-family: "everstake-icon-font", "CustomIcons", "MaticZilliqa" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ev-waves:before {
+  content: "\42";
+}
+.ev-algorand:before {
+  content: "\61";
+}
+.ev-ark:before {
+  content: "\62";
+}
+.ev-cardano:before {
+  content: "\43";
+}
+.ev-casperlabs:before {
+  content: "\63";
+}
+.ev-cosmos:before {
+  content: "\44";
+}
+.ev-daobet:before {
+  content: "\64";
+}
+.ev-decred:before {
+  content: "\65";
+}
+.ev-dash:before {
+  content: "\66";
+}
+.ev-elixxir:before {
+  content: "\67";
+}
+.ev-eos:before {
+  content: "\68";
+}
+.ev-eth:before {
+  content: "\45";
+}
+.ev-etherzero:before {
+  content: "\69";
+}
+.ev-harmony:before {
+  content: "\6a";
+}
+.ev-icon:before {
+  content: "\6b";
+}
+.ev-iost:before {
+  content: "\6c";
+}
+.ev-iotex:before {
+  content: "\6d";
+}
+.ev-irisnet:before {
+  content: "\6e";
+}
+.ev-kusama:before {
+  content: "\6f";
+}
+.ev-nano:before {
+  content: "\70";
+}
+.ev-near:before {
+  content: "\71";
+}
+.ev-nkn:before {
+  content: "\73";
+}
+.ev-ontology:before {
+  content: "\74";
+}
+.ev-pvx:before {
+  content: "\75";
+}
+.ev-polkadot:before {
+  content: "\76";
+}
+.ev-qtum:before {
+  content: "\77";
+}
+.ev-solana:before {
+  content: "\78";
+}
+.ev-tezos:before {
+  content: "\79";
+}
+.ev-ton:before {
+  content: "\7a";
+}
+.ev-kava:before {
+  content: "\41";
+}
+.ev-cyberway:before {
+  content: "\46";
+}
+.ev-terra:before {
+  content: "\47";
+}
+.ev-elrond:before {
+  content: "\48";
+}
+.ev-aion:before {
+  content: "\49";
+}
+.ev-remme:before {
+  content: "\4a";
+}
+.ev-nucypher:before {
+  content: "\4b";
+}
+.ev-neo:before {
+  content: "\72";
+}
+.ev-nebulas:before {
+  content: "\4c";
+}
+.ev-logo:before {
+  content: "\4d";
+}
+.ev-coda:before {
+  content: "\4e";
+}
+.ev-fio:before {
+  content: "\4f";
+}
+.ev-oasis:before {
+  content: "\50";
+}
+.ev-solana:before {
+  content: "\51";
+}
+.ev-switcheo:before {
+  content: "\78";
+}
+.ev-terra:before {
+  content: "\47";
+}
+.ev-band:before {
+  content: "\52";
+}
+.ev-chainlink:before {
+  content: "\53";
+}
+.ev-edgeware:before {
+  content: "\54";
+}
+.ev-telos:before {
+  content: "\55";
+}
+.ev-graph:before {
+  content: "\e902";
+}
+.ev-casper:before {
+  content: "\e900";
+}
+.ev-mina:before {
+  content: "\e903";
+}
+.ev-ton:before {
+  content: "\e905";
+}
+.ev-skale:before {
+  content: "\e904"
+}
+.ev-polygon:before {
+  content: "\e805"
+}
+.ev-zilliqa:before {
+  content: "\e907"
+}
+.ev-kichain:before {
+  content: "\e804"
+}

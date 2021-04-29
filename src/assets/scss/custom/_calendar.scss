@@ -1,0 +1,15 @@
+.popover-origin .popover-content-wrapper .popover-content {
+  background-color: $black--2 !important;
+}
+
+.c-pane-container {
+  color: $white !important;
+}
+
+.c-day-content-wrapper {
+  &:hover {
+    .c-day-content {
+      background: $yellow !important;
+    }
+  }
+}

@@ -1,0 +1,134 @@
+.custom-select {
+  background-color: $black--2;
+  color: $white;
+
+  &:focus {
+    border-color: $yellow;
+    box-shadow: $box-shadow-yellow;
+  }
+
+  &:disabled {
+    background-color: #3a4149;
+  }
+
+  option:hover {
+    background: $yellow--vague;
+    color: $white;
+  }
+
+  &.is-valid, &.is-invalid {
+    background-color: $black--2;
+  }
+}
+
+/* Multiselect custom styles */
+.multiselect {
+  min-height: 35px;
+
+  &__tags {
+    @extend .custom-select;
+    height: auto;
+    min-height: calc(1.5em + .75rem + 2px);
+    transition: all 0.2s;
+  }
+
+  &:focus &__tags {
+    @extend .custom-select:focus;
+  }
+
+  &.is-valid &__tags {
+    @extend .custom-select.is-valid;
+  };
+
+  &:focus.is-valid &__tags {
+    @extend .custom-select.is-valid:focus;
+  }
+
+  &.is-invalid &__tags {
+    @extend .custom-select.is-invalid;
+  };
+
+  &:focus.is-invalid &__tags {
+    @extend .custom-select.is-valid:focus;
+  }
+
+  &--above {
+    .multiselect__content-wrapper {
+      border-top: $border-yellow--2px;
+    }
+  }
+
+  &__placeholder {
+    color: $white;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+
+  &__select {
+    display: none;
+  }
+
+  &__tags-wrap {
+    position: relative;
+  }
+
+  &__tag {
+    background: $yellow;
+    color: $black;
+    margin-bottom: 0;
+    line-height: 0.7;
+    font-size: 12px;
+    top: 3px;
+  }
+
+  &__tag-icon {
+    line-height: 14px;
+  }
+
+  &__tag-icon:focus, &__tag-icon:hover {
+    background: $yellow--dark;
+  }
+
+  &__content-wrapper {
+    background: $black;
+    border: $border-yellow--2px;
+  }
+
+  &__option {
+    color: $white;
+    font-size: 14px;
+    min-height: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: all 0.2s;
+
+    &:after {
+      color: $grey--dark;
+      line-height: 22px;
+      display: none;
+    }
+
+    &--highlight {
+      background: $yellow--black;
+
+      &:after {
+        background: $yellow--black;
+        line-height: 22px;
+      }
+    }
+
+    &--selected {
+      background: $yellow;
+      font-weight: 400;
+    }
+
+    &--selected.multiselect__option--highlight{
+      background: $danger;
+
+      &:after {
+        background: $danger;
+      }
+    }
+  }
+}
+/* End multiselect custom styles */

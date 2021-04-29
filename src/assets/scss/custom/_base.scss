@@ -1,0 +1,26 @@
+body {
+  background: $black;
+  color: $white;
+  font-family: 'Roboto Mono', monospace;
+
+  ::selection {
+    color: $white;
+    background: $yellow;
+  }
+}
+
+.card--message {
+  padding: 60px 1.25rem;
+  max-width: 730px;
+  width: 100%;
+}
+
+.wrapper--auth {
+  display: flex;
+  min-height: 500px;
+  align-items: center;
+  justify-content: center;
+  /* 151px = header, breadcrumb and footer, 3rem = wrapper and breadcrumb margin-bottom*/
+  height: calc(100vh - 151px - 3rem);
+  margin-bottom: 1.5rem;
+}

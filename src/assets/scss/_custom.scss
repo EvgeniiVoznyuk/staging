@@ -1,0 +1,30 @@
+// Here you can add other styles
+@import '~vue-tel-input/dist/vue-tel-input.css';
+// Landing imports
+@import 'custom/bootstrap-custom';
+@import 'custom/dropdowns';
+@import 'custom/fonts';
+// End of landing imports
+
+// Custom icon font
+@import '~@/assets/fonts/everstake-icon-font/styles.scss';
+// End of custom icon font
+
+@import 'custom/utilities';
+@import 'custom/btns';
+@import 'custom/typography';
+@import 'custom/tables';
+@import 'custom/inputs';
+@import 'custom/pagination';
+@import 'custom/base';
+@import 'custom/sidebar-custom';
+@import 'custom/selects';
+@import 'custom/radios';
+@import 'custom/badges';
+@import 'custom/calendar';
+@import 'custom/blog';
+@import 'custom/scrollbar';
+@import 'custom/grids';
+@import 'custom/core-ui-brand';
+@import 'custom/notifications';
+@import 'custom/lists';

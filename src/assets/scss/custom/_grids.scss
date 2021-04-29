@@ -1,0 +1,42 @@
+.coins-grid {
+  border-top: $border-yellow--2px;
+  border-left: $border-yellow--2px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  /*grid-template-rows: repeat(auto-fit, 1fr);*/
+  grid-gap: 0;
+
+  &__item {
+    padding: 30px 15px;
+    border-bottom: $border-yellow--2px;
+    border-right: $border-yellow--2px;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: $yellow;
+
+      & .btn.btn-warning {
+        background-color: $black;
+        border-color: $black;
+        color: $white;
+
+        &:hover {
+          color: $yellow;
+        }
+      }
+    }
+
+    &--dev {
+      &:hover {
+        background-color: initial;
+        color: $yellow;
+
+        .coin__name.coin__name--dev,
+        .coin__description,
+        .coin-icon {
+          color: $yellow;
+        }
+      }
+    }
+  }
+}

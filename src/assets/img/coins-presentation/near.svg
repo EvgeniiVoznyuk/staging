@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="67px" viewBox="0 0 43 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>ontology copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.01462575%" y1="96.6458205%" x2="98.3366791%" y2="3.3402815%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="21%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="42%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="59%"></stop>
+            <stop stop-color="#FFFFFF" offset="81%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="ontology-copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="near_icon_wht" transform="translate(3.000000, 15.000000)">
+            <path d="M4.34361111,38 C5.60664603,37.9999898 6.80704691,37.4498864 7.63166667,36.4931944 L37.335,2.03722222 C36.5425597,0.768793127 35.1520066,-0.00129798136 33.6563889,-3.7500857e-15 C32.4005608,0.000207177301 31.2062848,0.543934757 30.3815278,1.49097222 L0.527777778,35.74375 C1.29132416,37.137135 2.7547376,38.0024314 4.34361111,38 Z" id="Path" fill="url(#linearGradient-1)"></path>
+            <path d="M4.34361111,38 C5.03585761,37.9998798 5.71804984,37.8343079 6.33333333,37.5170833 L6.33333333,8.75319444 L29.4104167,36.4456944 C30.2365741,37.4330454 31.4585749,38.0024746 32.7459722,38 L33.6563889,38 C36.0552991,38 38,36.0552991 38,33.6563889 L38,4.34361111 C38,1.94470094 36.0552991,3.38813179e-21 33.6563889,3.38813179e-21 C32.964455,-0.00253794782 32.2820474,0.161276068 31.6666667,0.477638889 L31.6666667,29.2547222 L8.58958333,1.56222222 C7.76494448,0.571917288 6.54272201,-0.000516018279 5.25402778,3.38813179e-21 L4.34361111,3.38813179e-21 C1.94470094,3.7500893e-15 2.84217094e-14,1.94470094 2.84217094e-14,4.34361111 L2.84217094e-14,33.6563889 C3.21717961e-14,36.0552991 1.94470094,38 4.34361111,38 Z" id="Path" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

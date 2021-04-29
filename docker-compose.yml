@@ -1,0 +1,30 @@
+version: '3'
+services:
+  nodejs:
+    container_name: "everstake-front-${APP_ENV}"
+    build: docker/nodejs
+    volumes:
+      - ./:/src
+      - ./logs/nodejs:/logs
+    command: ["/entrypoint.sh"]
+    logging:
+      options:
+        max-size: 50m
+
+  nginx:
+    restart: always
+    container_name: "everstake-front-nginx-${APP_ENV}"
+    image: nginx:latest
+    dns: 8.8.8.8
+    ports:
+      - "${EXPOSE_PORT}:80"
+    volumes:
+      - ./dist:/dist
+      - ./logs/nginx/:/logs
+      - ./docker/nginx/conf.d:/etc/nginx/conf.d
+    logging:
+      options:
+        max-size: 50m
+
+volumes:
+  storage:

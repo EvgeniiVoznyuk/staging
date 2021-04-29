@@ -1,0 +1,39 @@
+{
+  "producer_account_name": "",
+  "org": {
+    "candidate_name": "Everstake",
+    "website": "https://everstake.one/",
+    "code_of_conduct":"https://steemit.com/eos/@attic-lab/attic-lab-eos-block-producer-candidate",
+    "ownership_disclosure":"https://atticlab.net/ownership/",
+    "email":"inbox@everstake.one",
+    "branding":{
+      "logo_256": "https://everstake.one/img/Everstake-256.png",
+      "logo_1024": "https://everstake.one/img/Everstake-1024.png",
+      "logo_svg": "https://everstake.one/img/Everstake-logo.svg"
+    },
+    "location": {
+      "name": "Kyiv",
+      "country": "UA",
+      "latitude": 50.418493,
+      "longitude": 30.517631
+    },
+    "social": {
+      "facebook": "everstake.one",
+      "reddit": "Everstake",
+      "twitter": "everstake_pool",
+      "github":"everstake",
+      "telegram": "everstake_chat"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Kyiv",
+        "country": "UA",
+        "latitude": 50.418493,
+        "longitude": 30.517631
+      },
+      "node_type": "producer"
+    }
+  ]
+}

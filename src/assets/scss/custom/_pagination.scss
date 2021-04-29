@@ -1,0 +1,46 @@
+.page-item {
+  &.active {
+    .page-link {
+      background-color: $yellow;
+      border-color: $yellow;
+      color: $black;
+    }
+  }
+
+  &.disabled {
+    .page-link {
+      background-color: transparent;
+      color: $grey;
+    }
+  }
+}
+
+.page-link {
+  background-color: transparent;
+  color: $yellow;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $yellow--black;
+    color: $yellow--dark;
+  }
+
+  &:focus {
+    box-shadow: $box-shadow-yellow;
+  }
+}
+
+.pagination--brand {
+  .pagination {
+    margin-top: 54px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .pagination--brand {
+    .pagination {
+      margin-top: 20px;
+    }
+  }
+}

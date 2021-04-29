@@ -1,0 +1,1069 @@
+{
+  "common": {
+    "balance": "Balance",
+    "totalRewards": "Total rewards",
+    "statistics": "Statistics",
+    "search": "Search",
+    "home": "Home",
+    "login": "Login",
+    "logIn": "Log in",
+    "signUp": "Sign up",
+    "signIn": "Sign in",
+    "register": "Register",
+    "add": "Add",
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year",
+    "addNewAddress": "Add new address",
+    "youCanLease": "You can lease your tokens to us.",
+    "addressAbove": "Our address above.",
+    "fillInfo": "Fill info below to get the delegation address",
+    "realtimeStats": "Realtime statistics",
+    "calcIncome": "Calculate your potential income",
+    "everstakeIsTheBest": "Everstake is the best place for holders. We provide the highest levels of security, support, and governance insight to protect your assets and help you to generate maximum returns.",
+    "whatToStake": "What do you want to stake?",
+    "howManyAssets": "How many assets do you have?",
+    "delegationByStep": "Delegating step by step",
+    "votingByStep": "Voting step by step",
+    "pleaseAddAddress": "Please add your own address to get started and have access to all stats",
+    "rewardsHistory": "Rewards history",
+    "minDelegation": "Min delegation",
+    "ourFee": "Our fee",
+    "noFeesXRewards": "No fees, {numX} rewards",
+    "submit": "Submit",
+    "save": "Save",
+    "sendCode": "Send a code",
+    "resendCode": "Resend a code",
+    "profile": "Profile",
+    "selectCoin": "Please select a coin",
+    "addCoinAddress": "Add your {coin} address",
+    "verifyAccount": "Verify your account",
+    "verify": "Verify",
+    "yourAddress": "Your address",
+    "loading": "Loading",
+    "equivalent": "Equivalent",
+    "dailyReward": "Daily reward",
+    "totalReward": "Total reward",
+    "totalStake": "Total stake",
+    "rolls": "Rolls",
+    "rollsShare": "Rolls share",
+    "uptime": "Uptime",
+    "status": "Status",
+    "price": "Price",
+    "delegators": "Delegators",
+    "blocksProduced": "Blocks produced",
+    "votes": "Votes",
+    "cumulativeShare": "Cumulative share",
+    "missedBlocks": "Missed blocks",
+    "noData": "The data is temporarily unavailable",
+    "noChartData": "The chart is currently unavailable",
+    "analyticsNoChartData": "Its no chart data for chart",
+    "analyticsChartError": "Error while trying to get chart data",
+    "mrt": "MRT",
+    "subscribe": "Subscribe",
+    "whatIsStaking": "What is staking?",
+    "usefulLinks": "Useful links",
+    "yield": "Yield",
+    "analytics": "Analytics",
+    "back": "Back to all posts",
+    "blog": "Blog",
+    "yearlyIncome": "{percent} per year",
+    "scheduleCall": "Schedule call",
+    "everstakeBlog": "Everstake blog",
+    "nextPost": "Next post",
+    "previousPost": "Previous post",
+    "active": "Active",
+    "coinNode": "{coinName} node",
+    "everstakeLearningCenter": "Everstake - Learning Center",
+    "learningCenter": "Learning center",
+    "reward": "Reward",
+    "viewMore": "View more",
+    "noResults": " No results",
+    "delegationInfo": "Delegation Info",
+    "delegationGuides": "Delegation Guides",
+    "willBeAvailableSoon": "Will be available soon.",
+    "depositHistory": "Deposit history",
+    "totalIncome": "Total income",
+    "addAddressToDashboard": "Add address to Dashboard"
+  },
+  "notifications": {
+    "success": "Success",
+    "error": "Error",
+    "successfulRegistration": "Registration has been successful!",
+    "emailVerified": "Your email has been verified!",
+    "successfulLogin": "You have logged in!",
+    "failedLogin": "Login has failed.",
+    "resetPassRequestSuccess": "You've successfully requested password reset!",
+    "resetPassSuccess": "You've successfully changed the password",
+    "addressCreated": "A new address has been created!",
+    "addressExists": "The address already exists.",
+    "invalidCurrency": "The currency is invalid.",
+    "insecurePassword": "The password is insecure.",
+    "termsNotAccepted": "You must agree to the terms.",
+    "alreadyVerified": "The user is already verified.",
+    "emailIsRequired": "Email is required.",
+    "userNotFound": "The user is not found.",
+    "internalError": "Internal error. Please, contact support.",
+    "unsuccessfulOperation": "Unsuccessful operation. Try again later or contact support.",
+    "limit100Exceeded": "Limit must be less than 100",
+    "limit500Exceeded": "Limit must be less than 100",
+    "invalidPeriod": "The period is invalid.",
+    "countryIsRequired": "Country is required.",
+    "phoneIsRequired": "Phone is required and must be greater than 6 symbols and less than 14 symbols",
+    "countryIsVerified": "Your country is verified!",
+    "invalidPhoneNumber": "The phone number is invalid.",
+    "phoneConfirmed": "The phone is already confirmed.",
+    "smsLimitExceeded": "The SMS limit is exceeded.",
+    "requestExists": "Too many phone confirmation requests. Please, wait a minute.",
+    "requestDoesNotExists": "No confirmation requests.",
+    "phoneIsConfirmed": "Your phone number is confirmed!",
+    "verificationCodeIsRequired": "Verification code is required and must have 6 symbols.",
+    "accountIsVerified": "Your account has been verified!",
+    "invalidCode": "Invalid confirmation code.",
+    "copied": "Copied!",
+    "failedToCopy": "Failed to copy.",
+    "fieldRequired": "This field is required",
+    "failedToLoadBlocks": "Failed to load number of blocks",
+    "failedToLoadCreatedAddresses": "Failed to load number of created addresses",
+    "failedToLoadActiveAddresses": "Failed to load number of active addresses",
+    "failedToLoadTotalAddresses": "Failed to load number of total addresses",
+    "failedToLoadTxs": "Failed to load number of transactions",
+    "failedToLoadTxVolume": "Failed to load transaction volumes",
+    "maxString": "The string must be at most {num} characters",
+    "minString": "The string must be at least {num} characters",
+    "minmaxStringAddressEth": "The address length is 96 or 98 characters",
+    "invalidAddress": "Use latin letters and numbers",
+    "ethStart": "The address must start with 0x"
+  },
+  "home": {
+    "stakeWithUs": "Stake with us",
+    "aboutUs": "About us",
+    "coins": "Coins",
+    "team": "Team",
+    "support": "Support",
+    "terms": "Terms of use",
+    "stakingService": "Staking Service Platform",
+    "everstakeHelps": "Everstake helps institutional investors and regular token holders to profit off their crypto assets. We operate in a wide range of Proof of Stake blockchains, providing our customers with numerous options to choose from. Pick the most promising projects, delegate with Everstake and make 5%-20% annually.",
+    "everstakeHelpsP1": "Everstake helps institutional investors and regular token holders\nto profit off their crypto assets.",
+    "everstakeHelpsP2": "We operate in a wide range of Proof of Stake blockchains, providing our customers with numerous options to choose from.",
+    "everstakeHelpsP3": "Pick the most promising projects, delegate with Everstake and make 5%-20% annually.",
+    "everstakeHelpsShort": "Everstake helps institutional investors and regular token holders to profit off their crypto assets.",
+    "everstakeStats": "Everstake validation stats",
+    "availableCoins": "Available coins",
+    "coinsPresentation": {
+      "xtz": "We are running a delegation service.\nMore information here.",
+      "iost": "We currently became a Servi Node.\nYou can support us with your votes.",
+      "waves": "You can lease your tokens to us.",
+      "atom": "Validator - Everstake.",
+      "eos": "You can lease your tokens to resource exchange (REX) and earn passive income.",
+      "dash": "If you would like to participate in Dash pool, stake your Dash with our masternodes.",
+      "qtum": "If you would like to participate in\n QTUM pool, send us an e-mail.",
+      "iris": "Validator - Everstake.\nThe fee is 10%.",
+      "dcr": "If you would like to participate in\n Decred pool, send us an e-mail.",
+      "etz": "If you would like to participate in EtherZero pool, send us an e-mail.",
+      "ethereum2": "We are an Ethereum 2.0 testnet contributor",
+      "ark": "Delegate - Everstake. The fee is 5%.",
+      "iotx": "Delegate - Everstake. The fee is 10%",
+      "one": "We are running node for Harmony.",
+      "algo": "We are running node for Algorand.",
+      "nkn": "We are running node for NKN.",
+      "icx": "Vote for Everstake",
+      "cyber": "Vote for atticlabcway. The fee is 10%",
+      "trc": "We are running node for Terra.",
+      "aion": "We are running node for Aion.",
+      "rem": "We are running node for Remme.",
+      "bet": "We are running node for DAOBet.",
+      "ksm": "We are running node for Kusama.",
+      "sol": "We are running node for Solana.",
+      "nas": "We are running node for Nebulas."
+    },
+    "stakeNow": "Stake now",
+    "moreInfo": "More info",
+    "lendNow": "Lend now",
+    "devCoins": "Сoins under active development",
+    "moreDetails": "More details are coming soon.",
+    "whyChooseUs": "Why choose us",
+    "reasons": {
+      "one": {
+        "title": "Top-notch gear",
+        "description": "High-performance servers, broadband channels and advanced network topology allow us to show 99.9% uptime and generate blocks really fast."
+      },
+      "two": {
+        "title": "Proven track record",
+        "description": "The team behind Everstake is Attic Lab, a TOP-21 EOS block producer and a developer of the Codex.one crypto exchange."
+      },
+      "three": {
+        "title": "Automatic payouts",
+        "description": "All payouts are calculated and processed automatically, so your rewards are sent out as soon as they become available."
+      },
+      "four": {
+        "title": "Transparency",
+        "description": "All our operations and activities are open to the general public. We have strong commitment to clarity and transparency of our operations."
+      },
+      "five": {
+        "title": "Support",
+        "description": "We are ready to answer any questions from our customers 24/7."
+      }
+    },
+    "everstakeIsATeam": "Everstake is a team of experienced developers, financial experts and blockchain enthusiasts. The company was founded by Attic Lab, an EOS block producer from Ukraine.",
+    "weRunHighlySecure": "We run highly secure and reliable nodes for PoS protocols using the enterprise-level hardware to ensure maximum efficiency and security.",
+    "members": {
+      "vas": {
+        "position": "CEO and Founder",
+        "name": "Sergii \nVasylchuk",
+        "vitae": "A former software engineer with thorough knowledge in finance, now Sergii is CEO at Attic Lab. A wide range of business and technical skills allows him to manage complex software projects. As a founder of Everstake, Sergii is involved in business development and strategic planning."
+      },
+      "fen": {
+        "position": "CTO and Co-founder",
+        "name": "Sergii \nRopchan",
+        "vitae": "Senior Infrastructure Engineer at Attic Lab. Proven ability to create and deliver solutions tied to business growth, organizational development and systems/network optimization. Sergii has over 20 years of Unix software engineering, system administration, and DevOps experience."
+      },
+      "chern": {
+        "position": "CBDO and Co-founder",
+        "name": "Dmitry \nChernobay",
+        "vitae": "Dmitry Chernobay is a Ukrainian national, educated in the UK (MBA Banking & Finance), Slovenia (MBA Intl Business) and Ukraine (MA). Mr Chernobay has worked in the private sector in the Ukraine for Bank Société Générale Ukraine as Head of Corporate Banking & Marketing, JSC UkrGasBank as Deputy Chairman, and in the public sector as a policy advisor to the Prime Minister of Ukraine on banking & IFIs. Mr. Chernobay is currently a Supervisory Board member of PrJSC Eurocar and serves as director of Ukrainian technology company Attic Lab Ltd specialized in blockchain and fintech applications."
+      },
+      "boh": {
+        "position": "COO",
+        "name": "Bohdan \nOpryshko",
+        "vitae": "Bohdan holds Master's degree in Physics. After many years of successful experience in project management, SMM and UI/UX design, Bohdan joined Attic Lab. As a lead designer, he developed UX/UI for Codex. His role at Everstake distills down to business planning and customer relations."
+      },
+      "vit": {
+        "position": "PM",
+        "name": "Vit \nParkhomenko",
+        "vitae": "Vit worked as a BA for big enterprise projects providing support and expertise from discovery phase to successful completion. \nHas extensive knowledge of Business Analysis, Customer Relations and Project Management. \n\nAs a PM Vit oversees projects that focus on developing blockchain tools. \nHis main responsibilities are: development of project roadmaps, creation of performance and success criteria, overseeing of budgets and deadlines."
+      }
+    },
+    "product": "Product",
+    "about": "About",
+    "contactUs": "Contact us",
+    "rewardsPaid": "Rewards Paid",
+    "assetsStaked": "Digital Assets Staked",
+    "blocksProduced": "Blocks Produced",
+    "rewardDashboard": "Reward Dashboard",
+    "dashboard": "Dashboard",
+    "contact": "Contact",
+    "stayUpdated": "Stay updated with Everstake dashboard",
+    "takeAdvantage": "Take advantage of the Everstake Dashboard and have all important\nBlockchain data at your fingertips.",
+    "gotIssues": "Got issues? We’re here to help",
+    "wheneverProblem": "Whenever there’s a problem, don’t hesitate to contact our friendly support team!",
+    "tryNow": "Try now",
+    "joinTg": "Join our Telegram",
+    "followTwitter": "Follow on Twitter",
+    "readMedium": "Read our Medium",
+    "upvoteReddit": "Upvote our Reddit",
+    "supportTeam": "Support team",
+    "rewardsPerChain": "Rewards per chain",
+    "publicTestNet": "Public TestNet",
+    "notify": "Notify",
+    "emailUs": "Email us",
+    "nodeStatistics": "Node statistics",
+    "getStarted": "Get Started",
+    "readyToStake": "Ready To Stake ETH 2.0?",
+    "subscribeToReceive": "Subscribe to receive all the information about the assets that can be staked in the near future. No spam, just the latest breaking news."
+  },
+  "page404": {
+    "lost": "Oops! You're lost.",
+    "pageNotFound": "The page you are looking for was not found."
+  },
+  "login": {
+    "signIn": "Sign in to your account",
+    "registerNow": "Register now!",
+    "noAccount": "In case you have no account you can register it by clicking the button below.",
+    "forgotPassword": "Forgot password?"
+  },
+  "register": {
+    "createYourAccount": "Create your account",
+    "repeatPassword": "Repeat password",
+    "createAccount": "Create Account",
+    "acceptTerms": "I accept the terms of use",
+    "acceptBeforeSubmitting": "You must accept before submitting"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "emailRequired": "This is a required field and must be valid e-mail address",
+    "passwordRequired": "Password is required and must contain 8 characters, one number, one special character, one latin uppercase letter and one latin lowercase letter.",
+    "passwordsMustMatch": "Passwords must match",
+    "authorization": "Authorization"
+  },
+  "resetPass": {
+    "resetPass": "Reset password",
+    "createNewPass": "Create your new password",
+    "newPass": "New password",
+    "confirmNewPass": "Confirm new password",
+    "enterEmail": "Enter your email",
+    "confirmResetPass": "Confirm password reset",
+    "requestPassReset": "Request password reset"
+  },
+  "dropdownAccount": {
+    "account": "Account",
+    "logout": "Logout"
+  },
+  "balance": {
+    "address": "Address",
+    "demo": "This is a demo address",
+    "addAddressToStart": "Please add your own address to get started",
+    "addAddress": "Add address",
+    "totalStakingBalance": "Your total staking balance",
+    "stakingBalance": "Staking balance",
+    "allAssets": "All your assets",
+    "amount": "Amount",
+    "equivalentInUsd": "Equivalent in USD",
+    "coinShareInUsd": "Coin share in USD",
+    "tokenPrice": "Token price",
+    "stakedInBlockchains": "Staked in various blockchains"
+  },
+  "table": {
+    "records": "Records"
+  },
+  "notLoggedIn": {
+    "signUpToGetStarted": "To get started and access all stats, sign up and add your address"
+  },
+  "emailVerification": {
+    "emailVerified": "Email verified",
+    "thanksForVerifying": "Thank you for verifying your email",
+    "emailNotVerified": "Email not verified",
+    "checkMail": "Please check your mailbox for an email with verification link",
+    "loginAgain": "NB. if you have just validated your email - please login again to refresh the claim."
+  },
+  "filters": {
+    "byDate": "Filter by date",
+    "byCoin": "Filter by coin"
+  },
+  "coinPages": {
+    "ourStats": "Our {coinName} stats",
+    "yourCoinStats": "Your {coinName} stats",
+    "tryBot": "Try {coinName} Everstake bot",
+    "howToDelegateCoin": "How to delegate {coinName}?",
+    "delegateCoin": "Delegate {coinName}",
+    "delegateCoinWithEverstake": "Delegate {coinCode} with Everstake, your trusted staking partner",
+    "whyDelegateToValidator": "Why delegate {coinName} to Everstake validator?",
+    "whatIsCoinDelegation": "What is {coinName} delegation?",
+    "coinDelegationIs": "{coinName} delegation is a process of selecting one of the validators by freezing a part of your assets as a part of their voting power. In return, you get a share of the block production income.",
+    "coinDelegatingRewardsAndCalculator": "{coinName} delegation rewards and calculator?",
+    "isItSecureToDelegateCoin": "Is it secure to delegate {coinName}?",
+    "absolutelySecure": "Absolutely! Once delegated, your stake physically remains on your wallet and returns to your full control right after you un-delegate it.",
+    "delegatingBotTitle": "Delegating stats in Telegram {coinName} delegation bot",
+    "delegatingBotParagraph": "Make sure to take advantage of the Everstake Telegram bot that allows you to request account balances, get real-time notifications on all transactions, check the correctness of rewards, and more. It is a handy tool letting you have control over your staking on the go. To be in pace with your staking progress, set up the bot to display your {coinCode} delegation rewards and check their correctness.",
+    "voteCoin": "Vote {coinName}",
+    "whyVoteWithCoin": "Why vote for Everstake with your {coinName}?",
+    "whatIsCoinVoting": "What is {coinName} voting?",
+    "coinVotingRewardsAndCalculator": "{coinName} voting rewards and calculator?",
+    "howToVoteCoin": "How to vote in {coinName}?",
+    "isItSecureToVoteWithCoin": "Is it secure to vote with {coinName}?",
+    "votingBotTitle": "Voting stats in Telegram bot",
+    "votingBotParagraph": "Everstake Telegram bot allows you to request account balances, get real-time notifications on all transactions, check the correctness of rewards, and more. With this handy tool, you will have control over your staking on the go. To be in pace with your yields, set up the bot to display your {coinCode} voting rewards and statistics -",
+    "coinNodeTitle": "{coinName} node running and hosting service",
+    "coinNodeParagraph": "Running a {coinName} node requires a powerful machine, stable Internet connection, and perfectly set-up software. Reliable node operation can only be achieved by professional software and hardware engineers. If you need to run your own node, Everstake will set up and keep it for you for a competitive price. Instead of having your node in unpredictable conditions, run it in a world-class data center under the control of specialists.",
+    "coinSuperNodeTitle": "{coinName} supernode running and hosting service",
+    "coinMasterNodeTitle": "{coinName} masternode running and hosting service",
+    "coinStaking": "{coinName} staking",
+    "stakeCoinCode": "Stake {coinCode} with Everstake, your trusted staking provider",
+    "getReady": "How to stake {coinName}",
+    "getReadyParagraph": "Currently, {coinName} is working on the implementation of the DPoS staking process in its blockchain. Everstake is taking part in the testnet and is supporting the development. We will add the {coinName} staking once it is operational.",
+    "stayTuned": "Stay tuned",
+    "stayTunedParagraph": "Once implemented, {coinName} staking will be a profitable process of verification of new {coinCode} transactions. Currently, we can launch a node in this blockchain. If interested, please contact us via {email}.",
+    "subscribeToNewsletter": "Subscribe to our newsletter and be the first to find out about the launch of {coinName} staking.",
+    "subscribeToNewsletterAlt": "Subscribe to our newsletter and be the first to find out about our updates, special offers, and improvements.",
+    "voteForStakingTitle": "Vote in {coinName} blockchain:",
+    "voteForStaking": "Vote for Everstake, your trusted staking partner",
+    "delegationStatsBot": "Delegating stats in Telegram {coinName} delegation bot",
+    "delegationBotDescription": "Make sure to take advantage of the Everstake Telegram bot that allows you to request account balances, get real-time notifications on all transactions, check the correctness of rewards, and more. It is a handy tool letting you have control over your staking on the go. To be in pace with your staking progress, set up the bot to display your {coinName} delegation rewards and check their correctness -",
+    "masternodeStatsInTelegramBot": "Masternode stats in Everstake Telegram bot"
+  },
+  "ethereum2": {
+    "whyDelegate": "Why delegate ETH to Everstake validator?",
+    "whyDelegateParagraph": "Delegating ETH to Everstake validator will allow you to start staking on ETH 2.0 network and earn rewards on staked ETH – with no technical knowledge and no spent time for maintenance. Ethereum 2.0 Beacon Chain network requires a high-end node setup, well-maintained software, and a stable and fast Internet connection. Any of these factors contribute to the yields, and if something is far from perfect, you will end up in losses. Everstake is on guard of making ETH 2.0 staking hassle-free. We have a highly experienced engineering team with hands-on expertise in PoS staking spanning from its very beginning.",
+    "here": "here",
+    "faq": {
+      "1": {
+        "question": "What is ETH 2.0?",
+        "answer": ["Ethereum 2.0 is a large–scale upgrade of the basic blockchain network, in which the transition from PoW-mining (Proof-of-Work) to POS (Proof-of-Stake) or staking will be implemented. What will happen with the old miners, you can read {link}."]
+      },
+      "2": {
+        "question": "What are the differences between ETH and ETH 2.0?",
+        "answer": ["The key difference is the consensus algorithm. After the upgrade, holders will be able to launch nodes and receive rewards for their PoS stake. Switching to PoS will improve security, network speed, and energy efficiency. More detailed description in our article {link}."]
+      },
+      "3": {
+        "question": "What is the minimum amount of ETH I can stake?",
+        "answer": ["Currently the minimum number of coins to stake on our platform is 0.01 ETH. In this case you will have to wait until the pool of 32 ETH fills out. And after that we will assign you your Validator Address."]
+      },
+      "4": {
+        "question": "How can I stake ETH 2.0?",
+        "answer": [
+          "1. Connect your wallet to the Everstake Smart Contract",
+          "2. Deposited the amount of ETH you would like to stake. Note: if you stake less than 32 ETH you would have to wait until the pool of 32 ETH fills out to start earning rewards.",
+          "3. In the period of time that is defined by the validator queue to join the network (currently ~14 days) we will assign your Validator Address so you can track it’s performance at the {link}"
+        ]
+      },
+      "5": {
+        "question": "How does Everstake Smart Contract work? ",
+        "answer": ["Our Smart Contract gathers ETH and assigns funds to the appropriate validator. Where our team furtherly will ensure the highest uptime, will secure and monitor the deposited stakes, and regularly perform necessary updates to the staking software."]
+      },
+      "6": {
+        "question": "When will I start getting rewards?",
+        "answer": ["Only 900 Validators can be activated each day on the ETH 2.0 network. The time of activation will depend on the amount of validators in line. Currently there are approximately 12 000 validators, which equals 14 days."]
+      },
+      "7": {
+        "question": "How do I get rewarded for ETH 2.0 staking?",
+        "answer": ["Rewards vary depending on the rules of the Ethereum staking protocol, including how much ETH has been staked at a given time. Rewards are expected to be between 5% to 17% per year. Staking Rewards APR Curve can be found on the {link}."],
+        "ethereumLaunchpadPage": "Ethereum Launchpad page"
+      },
+      "8": {
+        "question": "How long will my staked ETH and ETH staking rewards be locked up for?",
+        "answer": ["Staked ETH cannot be unstaked or transferred on the Ethereum network until Phase 2 is active which can take more than 18 month. Our thoughts on the ETH 2.0 roadmap are {link}."]
+      }
+    }
+  },
+  "tezos": {
+    "payoutsFrom": "Payouts from",
+    "delegateToNewBaker": "Delegate to our new baker and get a discounted fee",
+    "whyDelegate": "Why delegate Tezos with baker Everstake?",
+    "whyDelegateParagraph": "Delegating XTZ with baker Everstake will help you to increase your yields. Tezos Delegated Proof of Stake blockchain network requires a high-end node setup, with powerful hardware, well-maintained software, and a stable and fast Internet connection. Any of these factors contribute to the yields, and if something is far from perfect, you will end up in losses. Everstake is on guard of making Tezos staking hassle-free. We have a highly experienced engineering team with hands-on expertise in PoS staking spanning from its very beginning.",
+    "whyDelegateParagraphBabylon": "Delegating Tezos with Everstake is an easy feat. Note, that after the Babylon update staking via KT addresses is not supported anymore. To start delegating your XTZ, you have to use an ordinary TZ address. Choose the desired wallet for staking, such as TezBox or any other, and delegate your XTZ to Everstake. Your cryptocurrency remains physically on your wallet, and you get rewarded for staking!",
+    "botParagraph": "Everstake Telegram bot that allows you to request account balances, get real-time notifications on,all transactions, check the correctness of rewards, and more. It is a handy tool allowing you to have control over your staking on the go. To be in pace with your staking progress, set up the bot to display your Tezos delegation rewards and check their correctness.",
+    "howToDelegateParagraph": "Delegating Tezos with Everstake is an easy feat. Note, that after the Babylon update staking via KT addresses is not supported anymore. To start delegating your XTZ, you have to use an ordinary TZ address. Choose the desired wallet for staking, such as TezBox or any other, and delegate your XTZ to Everstake. Your cryptocurrency remains physically on your wallet, and you get rewarded for staking!",
+    "faq": {
+      "first": {
+        "answer": "XTZ delegation is a process of selecting one of the block-producing nodes by freezing a part of your assets as a part of their staking balance. In return, you get a share of the block production income."
+      },
+      "second": {
+        "answer": "With Everstake, you can earn approximately 7.15% of your staked tezzies. To get more precise numbers, use the Everstake Telegram bot."
+      }
+    }
+  },
+  "iost": {
+    "mainSubtitle": "Learn how and why to vote IOST with Everstake, your trustful staking service.",
+    "whyVoteParagraph": "Voting in IOST will increase your stake and bring you stable yields on assets that otherwise would be just kept on your wallet without bringing extra income. Everstake runs a full Servi node, which means it stores all the blockchain data with it. Not only it stabilizes and maximizes the block production rewards, but it also plays a big role in the IOST ecosystem's stability.",
+    "nodeParagraph": "Running an IOST node requires a powerful machine, stable Internet connection, and perfectly set-up software. Having a Servi node also needs large storage capabilities. Reliable node operation can only be achieved by a professional software and hardware engineer. If you need to run your own full node or Servi node, Everstake will set up and keep it for you for a competitive price. Instead of having your node in unpredictable conditions, run it in a world-class data center under the control of specialists.",
+    "botParagraph": "Everstake Telegram bot allows you to request account balances, get real-time notifications on all transactions, check the correctness of rewards, and more. It is a handy tool allowing you to have control over your staking on the go. To be in pace with your yields, set up the bot to display your IOST voting rewards and statistics.",
+    "howToVoteParagraph": "Staking IOST is easy as with any other tokens. With Everstake, you can vote with any wallet of your choice. After you have created and topped up a mainnet wallet with IOSTABC, go to the IOSTABC website, find Everstake in the Produce Vote section, and vote with the desired amount. Done! If you would like to use the IOST Voter dApp, the process is almost no different.",
+    "faq": {
+      "first": {
+        "answer": "IOST voting is a process of selecting one of the block-producing nodes by blocking a part of your assets as a part of their voted balance. In return, you get a share of the block production income."
+      },
+      "second": {
+        "answer": "With Everstake, you can earn approximately 17% of your voted IOST tokens. To get more precise numbers, use the Everstake Telegram bot."
+      },
+      "third": {
+        "answer": "Absolutely! Once voted, your stake physically remains on your wallet and returns to your full control right after you un-vote it."
+      }
+    }
+  },
+  "waves": {
+    "mainTitle": "Lease your Waves",
+    "mainSubtitle": "Lease your Waves to Everstake to gain profits with a trustful supernode.",
+    "whyLease": "Why lease your Waves to Everstake?",
+    "whyLeaseParagraph": "Leasing Waves is profitable. By leasing your tokens you take part in the important process of block production and receive rewards in return. Waves blockchain network requires high-end supernode setup, with powerful hardware, well-maintained software, and a stable and fast Internet connection. Any of these factors contribute to the yields, and if something is far from perfect, you will end up in losses. With Everstake it is almost not possible, and your profits are always maximized.",
+    "nodeParagraph": "Some projects require having a full Waves supernode running. It is a complex task, which requires powerful hardware, stable Internet connection, and careful software setup. Everstake can handle all these requirements for you. Keep your Waves supernode in the hands of highly experienced blockchain engineers and run it in a world-class data center.",
+    "botTitle": "Leasing stats in Everstake Telegram bot",
+    "botParagraph": "Add the Everstake Telegram bot that allows you to request account balances, get real-time notifications on all transactions, check the correctness of rewards, and much more. It is a useful instrument allowing you to keep an eye on your staking on the go. Set up the bot to display your staking notifications and statistics to be in absolute control of your lease.",
+    "howToLease": "How to lease Waves?",
+    "howToLeaseParagraph": "Leasing Waves to Everstake is similar to any other staking and is done right in your wallet. After you have created a Waves wallet and deposited some funds to it, select the Leasing menu in the top bar. Press Start Lease, enter the Everstake staking address and the amount of Waves you would like to lease, and press Start Lease once more. That's it, you have already started yielding with Everstake!",
+    "faq": {
+      "first": {
+        "question": "What is Waves leasing?",
+        "answer": "Waves leasing is a process of selecting one of the block-producing supernodes by halting a part of your assets as a part of their leased balance. In return, you get a share of the block production income."
+      },
+      "second": {
+        "question": "Waves leasing rewards and calculator?",
+        "answer": "With Everstake, you can earn approximately 2% of your leased Waves tokens. To get more exact stats, use the Everstake Telegram bot."
+      },
+      "third": {
+        "question": "Is it secure to lease Waves?",
+        "answer": "It is absolutely safe. Once leased, your stake physically remains on your wallet and returns to your full control right after you end your lease period."
+      }
+    }
+  },
+  "cosmos": {
+    "whyDelegateParagraph": "Delegating ATOM to Everstake validator will help you to increase your yields. Cosmos Proof of Stake blockchain network requires a high-end node setup, with powerful hardware, well-maintained software, and a stable and fast Internet connection. Any of these factors contribute to the yields, and if something is far from perfect, you will end up in losses. Everstake is on guard of making Cosmos staking hassle-free. We have a highly experienced engineering team with hands-on expertise in PoS staking spanning from its very beginning.",
+    "botParagraph": "Make sure to take advantage of the Everstake Telegram bot that allows you to request account balances, get real-time notifications on all transactions, check the correctness of rewards, and more. It is a handy tool letting you have control over your staking on the go. To be in pace with your staking progress, set up the bot to display your ATOM delegation rewards and check their correctness.",
+    "howToDelegateParagraph": "Delegating ATOM is very easy with Everstake and can be performed right in your wallet if it has a delegation section, or in the Hubble block explorer. To start delegation, open the {link}, click Stake Now in the upper right corner, and use your Ledger Nano S Cosmos app to log in. Once in, select the amount of ATOM you wish to stake and click Delegate. That's it, you've started collecting profits!",
+    "faq": {
+      "second": {
+        "answer": "With Everstake, you can earn a part of yield which will correspond to your staked ATOMs. To get more precise numbers, use the Everstake Telegram bot."
+      }
+    }
+  },
+  "dash": {
+    "ourStats": "Our Dash Stats",
+    "yourDashStats": "Your Dash Stats",
+    "completeProfile": "Complete your profile by following four steps",
+    "selectCountry": "Select your country of residence",
+    "fillNumber": "Fill out your phone number",
+    "validateNumber": "Validate your mobile number",
+    "enterAddress": "Enter your Dash address",
+    "getAddress": "Get Everstake Dash address",
+    "pleaseSelectCountry": "Please fill out your country of residence",
+    "weAskForCountry": "Country: We ask for country and we reserve the right to deny you access to our services based on your country of residence.",
+    "pleaseEnterNumber": "Please enter your phone number",
+    "enterPhone": "Enter your phone",
+    "addressIsNeeded": "Everstake needs to know the address that you are sending from in order to know who the funds belong to. Please read this {Knowledge} Article for more info on wallets you can use to send funds to Everstake.",
+    "knowledge": "Knowledge",
+    "conditionsRead": "I have carefully read {guide} - show me the address now",
+    "guide": "the guide on how to transfer funds to Everstake",
+    "payFourWeeks": "Pay every 4 weeks",
+    "reinvest": "Reinvest in my stake",
+    "transferTo": "Transfer funds to this address",
+    "transferFrom": "from your address",
+    "doNotTransferFromExchange": "Do not send from exchanges",
+    "verificationCode": "Verification code",
+    "validate": "Validate",
+    "agreeToTerms": "Agree to terms",
+    "accountVerified": "Account has been verified",
+    "addressAdded": "Address has been added",
+    "masternodeColdBalance": "Masternode cold balance",
+    "enabledMasternodes": "Enabled masternodes",
+    "needForMaternode": "Need for new masternode",
+    "rewardsPayout": "Automatic rewards payout",
+    "mainTitle": "Run Dash masternode",
+    "mainSubtitle": "Run your own Dash masternode with Everstake, your PoS partner",
+    "nodeParagraph": "Running a Dash masternode requires a powerful machine, stable Internet connection, and perfectly set-up software. Reliable masternode operation can only be achieved by professional software and hardware engineers. If you need to run your own masternode, Everstake will set up and keep it for you for a competitive price. Instead of having your masternode in unpredictable conditions, run it in a world-class data center under the control of specialists.",
+    "botParagraph": "Forget about uncomfortable manual monitoring of your Dash masternode. Set up notifications and alerts for your profits from the masternode right in the Everstake Telegram bot -",
+    "botParagraph_statistics": "Get all the statistics of your masternode at a glance right in your everyday use messenger, anytime, anywhere.",
+    "faq": {
+      "first": {
+        "question": "What is a Dash masternode?",
+        "answer": "Dash masternode is a PoS blockchain client which has a certain amount of Dash blocked in its stake in order to start receiving yields from verification of Dash transactions."
+      },
+      "second": {
+        "question": "Dash masternode rewards and calculator?",
+        "answer": "Currently, Dash masternode leads to up to 8% profit. The exact amount varies depending on the stake and the stability of your supernode."
+      },
+      "third": {
+        "question": "Is it secure to run a masternode?",
+        "answer": "Yes! Once you stake your Dash, it remains within the masternode and gets back to your full control once you unstake and stop the supernode."
+      }
+    }
+  },
+  "qtum": {
+    "mainTitle": "Stake QTUM",
+    "mainSubtitle": "Run your own QTUM staking node with Everstake, your PoS staking partner",
+    "nodeParagraph": "Running a QTUM node requires a powerful machine, stable Internet connection, and perfectly set-up software. Reliable supernode operation can only be achieved by professional software and hardware engineers. If you need to run your own node, Everstake will set up and keep it for you for a competitive price. Instead of having your node in unpredictable conditions, run it in a world-class data center under the control of specialists.",
+    "botTitle": "Node stats in Everstake Telegram bot",
+    "botParagraph": "Forget about the manual monitoring of your QTUM staking. Set up notifications and alerts for your profits from the node right in the Everstake Telegram bot. Get all the statistics of your staking at a glance right in your everyday use messenger, anytime, anywhere.",
+    "faq": {
+      "first": {
+        "question": "What is QTUM Staking?",
+        "answer": "QTUM staking node is a PoS blockchain client which has a certain amount of QTUM blocked and matured in its stake in order to start receiving yields from verification of QTUM transactions."
+      },
+      "second": {
+        "question": "QTUM node rewards and calculator?",
+        "answer": "Currently, QTUM staking leads to up to 8% profit. The exact amount varies depending on the stake and the stability of your staking node."
+      },
+      "third": {
+        "question": "Is it secure to stake QTUM?",
+        "answer": "Yes! Once you stake your QTUM, it remains within the supernode and gets back to your full control once you unstake and stop the supernode."
+      }
+    },
+    "howMany": "How many QTUM do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "egld": {
+    "howMany": "How many egld do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "tlos": {
+    "howMany": "How many tlos do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "near": {
+    "howMany": "How many NEAR do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "edg": {
+    "howMany": "How many edg do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "band": {
+    "howMany": "How many band do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "skale": {
+    "howMany": "How many skale do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "rose": {
+    "howMany": "How many ROSE do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "polygon": {
+    "howMany": "How many polygon do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "zilliqa": {
+    "howMany": "How many zilliqa do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "kichain": {
+    "howMany": "How many XKI do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "link": {
+    "howMany": "How many link do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "iris": {
+    "howToDelegateParagraph": "The process of IRIS delegation with Everstake is very straightforward. To start, log in into your Rainbow wallet, go to the Stake section, enter the Everstake staking address, the amount of IRIS you would like to stake and confirm. That's it, you have started staking!",
+    "whyDelegateParagraph": "Delegating IRIS to Everstake validator can increase your IRIS balance. The IRIS inter-blockchain Proof of Stake network requires a complex node setup, with powerful hardware, well-maintained software, and a stable and fast Internet connection. Any of these factors contribute to the yields, and if something is far from perfect, you can end up in losses. With Everstake, your staking will be stable. We have a highly experienced engineering team with hands-on expertise in PoS staking spanning from its very beginning.",
+    "botParagraph": "Everstake Telegram bot allows you to request account balances, get real-time notifications on all transactions, check the correctness of rewards, and more. It is a handy tool using which you will have control over your staking on the go. To be in pace with your staking progress, set up the bot to display your IRIS delegation rewards and check their correctness.",
+    "faq": {
+      "second": {
+        "answer": "With Everstake, you can earn a part of yield which will correspond to your staked IRIS tokens. To get more precise numbers, use the Everstake Telegram bot."
+      }
+    }
+  },
+  "decred": {
+    "mainTitle": "PoS Vote Decred",
+    "mainSubtitle": "Learn how and why to vote Decred with Everstake, the Voting Service Provider.",
+    "whyVote": "Why vote with Everstake with your voting tickets?",
+    "whyVoteParagraph": "Voting in Decred can increase your stake and bring you stable yields on assets that otherwise would be just kept on your wallet without bringing extra income. Everstake is a Voting Service Provider, which means it takes a direct part in the Decred PoS consensus. Not only it stabilizes and maximizes the block production rewards, but it also plays a big role in the Decred ecosystem's stability.",
+    "nodeParagraph": "Running a Decred node requires a powerful machine, stable Internet connection, and perfectly set-up software. Being a Voting Service Provider also needs large storage capabilities. Reliable node operation can only be achieved by a professional software and hardware engineer. If you need to run your own VSP node, Everstake will set up and keep it for you at a reasonable price. Instead of having your node in unpredictable conditions, run it in a world-class data center under the control of specialists.",
+    "botParagraph": "Everstake Telegram bot allows you to request account balances, get real-time notifications on all transactions, check the correctness of rewards, and more. It is a handy tool for controlling your staking on the go. To be in pace with your yields, set up the bot to display your Decred voting rewards and statistics.",
+    "howToVoteParagraph": "PoS Voting in Decred is fairly easy. To start with Decredition, navigate to the Tickets menu's Purchase tab and buy the desired number of voting tickets. Contact us to get your API key. During the purchase, make sure that the Voting Address corresponds to the Everstake Decred staking address. Once you've bought a ticket, you have started staking. You can use the Automatic Ticket Buyer to multiply your yields with Everstake.",
+    "faq": {
+      "first": {
+        "question": "What is Decred PoS voting?",
+        "answer": "Decred PoS voting is a process of selecting one of the Voting Service Providers by blocking a part of your voting tickets as a part of their voted balance. In return, you get a share of the block production income."
+      },
+      "second": {
+        "answer": "With Everstake, you will earn Decred tokens, corresponding to your stake in voting tickets. To get more precise numbers, use the Everstake Telegram bot."
+      },
+      "third": {
+        "answer": "Absolutely! Your funds physically remain on your wallet and under your control. You delegate your voting ticket, which can also be returned and changed back to Decred tokens, only by you personally."
+      }
+    }
+  },
+  "ark": {
+    "mainSubtitle": "Vote your ARK tokens for Everstake, the most stable ARK Delegate.",
+    "whyVoteParagraph": "Voting in ARK can increase your stake and bring you stable yields on assets that otherwise would be just kept on your wallet without bringing extra income. Everstake runs an ARK Delegate node, which means it takes a direct part in the ARK PoS consensus. Not only it stabilizes and maximizes the block production rewards, but it also plays a big role in the ARK ecosystem's stability.",
+    "nodeParagraph": " Running an ARK node requires a stable Internet connection, powerful hardware, and perfectly set-up software. Being a full node also needs large storage capabilities. Reliable node operation can only be achieved by a professional software and hardware engineer. If you need to run your own Delegate node, Everstake will set up and keep it for you at a reasonable price. Instead of having your node in unpredictable conditions, run it in a world-class data center under the full control of specialists.",
+    "botParagraph": "Everstake Telegram bot allows you to request account balances, get real-time notifications on all transactions, check the correctness of rewards, and more. With this handy tool, you will have control over your staking on the go. To be in pace with your yields, set up the bot to display your ARK voting rewards and statistics.",
+    "howToVoteParagraph": "Voting in ARK is extremely easy. Log in to your ARK desktop client with the account you want to vote with. Go to the Votes tab and click on the Vote button. Enter 'everstake' in the second text field and your password under it. The voting commission is 1 ARK token. After you confirm your vote, you have started your staking with Everstake and your vote has started working for your profits!",
+    "faq": {
+      "first": {
+        "answer": "ARK voting is a process of selecting one of the delegates and voting for them with your wallet. In return, you get a share of the block production income. You can only vote for one delegate."
+      },
+      "second": {
+        "answer": "With Everstake, you will earn ARK tokens, corresponding to your stake in the voting pool. To get more precise numbers, use the Everstake Telegram bot."
+      },
+      "third": {
+        "answer": "Absolutely! Your funds physically remain on your wallet and under your control. You can always un-vote a Delegate following a few simple steps."
+      }
+    }
+  },
+  "iotx": {
+    "whyDelegate": "Why delegate IoTeX with Everstake?",
+    "whyDelegateParagraph": "Delegating IOTX with delegate Everstake can gradually increase your stake. IoTeX Delegated Proof of Stake blockchain network requires a high-end node setup, with powerful hardware, well-maintained software, and a stable and fast Internet connection. Any of these factors contribute to the yields, and if something is far from perfect, you can end up in losses. Everstake is on guard of making IOTX staking hassle-free. We have a highly experienced engineering team with hands-on expertise in PoS staking spanning from its very beginning.",
+    "botParagraph": "Everstake Telegram bot allows you to request account balances, get real-time notifications on all transactions, check the correctness of rewards, and more. Use this handy tool to control your staking anywhere. To be in pace with your staking progress, set up the bot to display your IOTX delegation rewards and check their correctness.",
+    "howToDelegateParagraph": "Staking IoTeX is extremely easy and is performed right in your {ioTeXMemberPanel}. Log in to your member panel with Metamask, select the Voting tab and click New Vote. In the next menu, enter everstake in the Delegate Name field. Now you can select the stake size and duration in epochs, auto-restaking, and other details of your stake. After you have confirmed your stake and sent the transaction, you're in! Now Everstake is working to increase your stake!",
+    "ioTeXMemberPanel": "IoTeX member panel",
+    "faq": {
+      "first": {
+        "answer": "IOTX delegation is a process of selecting one of the block-producing nodes by freezing a part of your assets as a part of their staking balance. In return, you get a share of the block production income."
+      },
+      "second": {
+        "answer": "With Everstake, you can earn stable rewards for your staked IOTX. To get more precise numbers, use the Everstake Telegram bot."
+      },
+      "third": {
+        "answer": "Absolutely! IoTeX voting is controlled by a smart contract, and it will send you back all your staked IOTX once you wish to un-stake them. This process is automatic and can't be controlled manually."
+      }
+    }
+  },
+  "eos": {
+    "howToEarnTitle": "How to Earn EOS?",
+    "howToEarn": "EOS supports staking using special proxies, but not every user can run them. This requires an impressive amount of investment and technical knowledge. But there is an alternative: you can vote for a proxy to stake EOS tokens. Everstake has launched its proxy, users can vote for it and receive 2% — 4% per annum in EOS.",
+    "earnEos": "Earn EOS by using REX"
+  },
+  "icx": {
+    "mainTitle": "Stake and vote for Everstake",
+    "mainSubtitle": "Every single vote matters for us, allowing us to continue developing tools for ICON blockchain and supporting the East European community.",
+    "voteAndGet": "Vote for Everstake and get {percent} yearly",
+    "howToGetStarted": "How to get started?",
+    "howToGetStartedParagraph": "In case you are new to ICON staking, you can refer to our official {guide} which will walk you through all the necessary steps, so that you could start staking with us.",
+    "stakingGuide": "ICX staking and voting guide",
+    "whyDelegateParagraph": "Delegating your ICX to Everstake will successfully increase your yields while keeping your digital assets secure. Almost any Proof-of-Stake blockchain network such as ICON requires running a node with an appropriate hardware set-up, stable internet connection, and constant maintenance. If one of these factors is not met, then you are risking to lose a potential reward once the validating node finds the block. Instead of having your masternode in unpredictable conditions, run it in a world-class data center under accurate control of our specialists.",
+    "botParagraph": "Whenever you are, there won’t be a constant need to monitor your ICON node in the old fashioned way. Specifically for this, we have developed a {botLink} which allows getting all necessary statistics and analysis on the go. Now you can step up all the notifications right inside your messenger to get valuable data in time.",
+    "telegramBot": "Telegram Bot",
+    "tutorials": "ICON Tutorials",
+    "whyStake": "Why you have to stake ICON? ",
+    "whyStakeParagraph": "By holding your crypto you owe no rewards, so why not to have some? If you are staking with us not only you are getting additional ICX tokens, but also you help to maintain the decentralization and security of the network. Become one of the supporters, and in case you lack some knowledge you can always refer to our educational materials.",
+    "spendRewardsToSupport": "We spend our rewards to support ICON",
+    "educationMaterials": "Educational materials",
+    "educationMaterialsP": "People are coming to crypto from different industries, and there must be someone who could walk these people through complexities, providing them with detailed information related to cryptocurrency staking, voting, and others. During the last year we have published the following educational materials:",
+    "inEnglish": "In English",
+    "inRussian": "Ukrainian and Russian",
+    "videoTxt": "In case you are new to ICON take a look at our video explainer",
+    "communityGrowth": "Community growth",
+    "communityGrowthP": "We care about the community because we understand that these people will empower the ICON ecosystem, first of all by using it and finding ways to improve it. That’s why we conduct a variety of different AMA sessions that allow people to get more familiar with ICON technology and innovations that the ecosystem brings into the financial sphere. Moreover, we frequently get involved in forum and chat communications, supporting users with up-to-date information.",
+    "bugBounty": "ICON bug bounty",
+    "bugBountyP": "Considering the fact that all systems created by developers are prone to different vulnerabilities that can't be detected for years, Everstake decided to speed up the bug-finding process by opening the bug bounty program, that allows receiving USDT as a reward in exchange for bug information.",
+    "bugBountyParticipate": " Participate in bug bounty",
+    "webinar": "ICON Europe webinar",
+    "webinarP": "ICON Europe Webinar on May 20 17:00 CEST! Meet Everstake together with Block42, Stakin, Iconsolidation on the ICON Europe Webinar! More details are coming soon!",
+    "registerHere": "Register here",
+    "devOperations": "Development operations",
+    "devOperationsP1": "Our team strives to maintain the decentralization and stability of the ICON blockchain. We are motivated to support the ecosystem because by doing so we can create a better environment for the network growth.",
+    "devOperationsP2": "Everstake is an active network participant, and we love to get involved in ICON ecosystem improvement at all levels. We vote, propose, and support the blockchain when it comes to important updates and developments.",
+    "iconMon": "ICON Mon",
+    "iconMonP": "Our team is an active network participant, we love to get involved in ICON ecosystem improvement at all levels",
+    "iconMonOpen": "Open ICON Mon",
+    "development": "Development",
+    "developmentP": "During the last few years, we have gathered in-depth knowledge of financial and blockchain areas. With that experience, we continue delivering a variety of useful tools that empower our communities.",
+    "bot": "ICON tracking and reward bot",
+    "botP": "Everstake Telegram bot is capable of tracking on-chain transactions, wallets activities, rewards, and other essential information. It also supports staking/unstaking and voting/unvoting tracking.",
+    "tryBot": "Try ICON bot",
+    "functionalityOverview": "Functionality overview",
+    "dashboard": "ICON dashboard",
+    "dashboardP": "Considering the fact that many things across the network change fast, users may want to keep track of the most important activities. Now you can have all the necessary network information at your fingertips.",
+    "dashboardOverview": "Dashboard overview",
+    "voteMonitor": "ICON vote monitor",
+    "voteMonitorP": "Whether you are a validator or simply a user, sometimes voting activity performed over the network is vital for your knowledge. And in order to help you in getting insights, you can use our vote monitor service, which allows understanding voting dynamics related to different P-Reps.",
+    "openVoteMonitor": "Open ICON vote monitor",
+    "voteMonitorExplanation": "Vote monitor explanation",
+    "analytics": "ICON Analytics",
+    "analyticsP": "With our network analytics tool you will get insights that will uncover such statistics as the number of active addresses, the number of blocks, created addresses and transactions. Having this instrument at your disposal helps to understand how the network performs and what to expect next.",
+    "openAnalytics": "Open ά-version",
+    "stats": "Statistics that we collected during the development time",
+    "requestsToNode": "Requests to the node",
+    "avgSpeed": "Average processing speed",
+    "blockchainParsing": "Full blockchain parsing",
+    "whyVote": "Why you have to vote for Everstake?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "howManyIcx": "How many ICXs do you have?",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details.",
+    "clickToKnowIcon": "Click here to know more about ICON",
+    "clickToKnowEverstake": "Click here to know more about Everstake",
+    "everstakeStrives": " Everstake strives to deliver competitive and effective solutions to the benefit of communities.",
+    "whyVoteDevelopmentP": "Our team works hard to provide the ICON community with top-notch tools and software so that everyone could have a perfect edge on analytics, information, and resources.",
+    "whyVoteDevOpsP": "Everstake meticulously deploys and takes care of its hardware and software solutions, because we are convinced that financial services must be reliable and resilient in cyberspace.",
+    "whyVoteEducationMaterialsP": "Knowledge is what sets winners apart from everyone else, and our team is ready to help those members who are willing to move forward on the wave of technology change.",
+    "whyVoteCommunityGrowthP": "We think that a strong community matters more than technology because ideas without proper support tend to fail.",
+    "learnMore": "Learn more",
+    "rewardPercents": {
+      "devCosts": "{percent}% Development & investment",
+      "infra": "{percent}% DevOps and node infrastructure",
+      "marketing": "{percent}% Marketing",
+      "design": "{percent}% Graphics and design",
+      "education": "{percent}% Educational materials",
+      "savings": "{percent}% Savings for future investments",
+      "emergency": "{percent}% Emergency"
+    },
+    "faq": {
+      "1": {
+        "question": "What is ICON node? ",
+        "answer": [
+          "ICON node is a Proof-of-Stake blockchain software that allows validating and proposing blocks when a certain amount of cryptocurrency is staked with that node."
+        ]
+      },
+      "2": {
+        "question": "What is staking?",
+        "answer": [
+          "Staking is a concept of an alternative mining process on the Proof-of-Stake (PoS) blockchains, which allows cryptocurrency holders to lock up their digital assets for a certain period of time in exchange for rewards that they constantly get over time proportionally to the amount of staked cryptocurrency. Everyone who participates in the staking, delegates their cryptocurrency to different Validators who run validating nodes which in the end confirm transactions on the network."
+        ]
+      },
+      "3": {
+        "question": "Who are P-Reps?",
+        "answer": [
+          "Public Representatives or P-Reps are the entities on the ICON blockchain that get elected by the community, so that they could represent certain interests of the majority and govern the network by proposing and voting for different policies. It’s also important to mention that Public Representatives are running validating nodes that process transactions on the network and participating in block producing."
+        ]
+      },
+      "4": {
+        "question": "How to get started?",
+        "answer": [
+          "In case you are new to ICON staking, you can refer to our official {guide} which will walk you through all the necessary steps, so that you could start staking with us."
+        ],
+        "icxGuide": "ICX staking and voting guide"
+      },
+      "5": {
+        "question": "What’s the staking reward?",
+        "answer": [
+          "Usually, voters can have annual rewards that vary in the range of 6% to 36%, and the amount of distributed rewards depends on the number of staked ICX tokens on the network. So, in case there’s a small amount of staked tokens, then network participants will receive higher rewards, and once the number of staked ICX grows, then users will receive smaller rewards. Network participants are getting rewards in I-Score, which allows claiming a certain number of ICX from the Public Treasury.",
+          "Staking rewards are subject to change, and by the end of 2019 or in 2020, ICON Foundation is planning to release EEP and DApp delegation processes, which will require all network participants to stake ICX tokens with such types of the network entities as: P-Reps, DApps, EEPs in order to receive complete amount of rewards that range between 6% and 36%. In case a user decides to vote only for one type of the network entity, he will be getting from 2% to 12% in annual rewards."
+        ]
+      },
+      "6": {
+        "question": "What’s the ROI for staking?",
+        "answer": [
+          "According to our research, in case 50% of the circulating supply of the ICX is staked, then the estimated annual return on investment is 15.7%. At the moment 18,88%."
+        ]
+      },
+      "7": {
+        "question": "Is there a minimum amount that I can stake?",
+        "answer": [
+          "At the moment, there are no requirements for a minimum staking amount."
+        ]
+      },
+      "8": {
+        "question": "How long should I wait to restake with another P-Rep?",
+        "answer": [
+          "At any time you can easily switch to other P-Rep candidates and move your stake, so the lock-up period doesn’t restrict you from doing that."
+        ]
+      },
+      "9": {
+        "question": "What is the unstaking period?",
+        "answer": [
+          "As it was mentioned earlier, it depends on the amount of ICX tokens that are currently staked on the network. But usually, it takes from 5 to 20 days to have ICX tokens unstaked. At the moment — 11 days."
+        ]
+      },
+      "10": {
+        "question": "Do I have any control over my staked ICX tokens?",
+        "answer": [
+          "You have always control over your staked ICX tokens, but in case you decide to interrupt the staking process, aborting the lock-up period, then you become the subject to 6% burn penalty. But it happens only if P-Rep that you have staking with is not an active participant, then he will be penalized by the network. So penalties occur when the P-Rep’s block producing rate decreases below 85%. Moreover, if the P-Rep was detected while conducting network disrupting activities, then he will be penalized as well, so it very important to choose a well-known P-Rep with high reputation."
+        ]
+      },
+      "11": {
+        "question": "What’s the reason for staking?",
+        "answer": [
+          "First and most important, you will be receiving more ICX tokens for staking. On top of that, you will be able to vote for P-Reps improving network governance and stability."
+        ]
+      },
+      "12": {
+        "question": "How can I stake?",
+        "answer": [
+          "In order to start staking, you have to install the Google Chrome Extension called the ICONex Wallet, which is available on the iOS, Android, and Ledger Wallets.",
+          "Staking with ICONex Mobile Wallet — {link}",
+          "Staking with ICONex WEB Wallet — {link}"
+        ]
+      },
+      "13": {
+        "question": "What are the staking risks?",
+        "answer": [
+          "In case you have staked ICX with a P-Rep who was penalized, then 6% of the total amount of staked coins gets burned. But usually, these situations happen rarely, and if you vote for a P-Rep who has a good reputation, then there’s no need to worry much.",
+          "The penalty mechanism consists of three scenarios where P-Reps can get penalized for inappropriate behavior, and those are Low Productivity Penalty, Disqualification Penalty, and Validation Penalty. These chastisements play a vital role in the stability of the network, but if anyone crosses these lines, then they incur a 6% token burn out of the total amount of staked cryptocurrency."
+        ]
+      },
+      "14": {
+        "question": "Is it possible to stake for multiple P-Reps?",
+        "answer": [
+          "Anyone is capable of staking with as many P-Reps as they want, and it’s strongly recommended to stake with multiple P-Reps so that the network can stay decentralized and more healthy."
+        ]
+      },
+      "15": {
+        "question": "Is there a way to avoid staking risks?",
+        "answer": [
+          "In order to lower risks associated with the staking process, it’s recommended to stake cryptocurrency with more than 5 P-Reps."
+        ]
+      },
+      "16": {
+        "question": "Why do I need to delegate ICON?",
+        "answer": [
+          "Delegating your ICX to Everstake will successfully increase your yields while keeping your digital assets secure. Almost any Proof-of-Stake blockchain network such as ICON requires running a node with an appropriate hardware set-up, stable internet connection, and constant maintenance. If one of these factors is not met, then you are risking to lose a potential reward once the validating node finds the block. Instead of having your masternode in unpredictable conditions, run it in a world-class data center under accurate control of our specialists."
+        ]
+      },
+      "17": {
+        "question": "How to keep track of all my rewards?",
+        "answer": [
+          "{link} — The dashboard provides users with analytics and statistics, which help to keep track of staking revenue and other essential metrics. Once logged into your account, you can find stats about rewards, balances, payout history, and other metrics.",
+          "{link} — the bot allows users to keep track of an unlimited number of wallets as well as exchange addresses. The Bot shows individual balances of user’s addresses and an aggregated user’s balance in BTC and USD. Additionally, the Bot sends notifications about incoming/outgoing transactions."
+        ]
+      },
+      "18": {
+        "question": "Where can I get detailed information about P-Reps?",
+        "answer": [
+          "More detailed information regarding the P-Reps can be found on the ICON vote monitor - {voteMonitorSite}."
+        ]
+      },
+      "19": {
+        "question": "Is it a good strategy to stake only with one P-Rep?",
+        "answer": [
+          "Every P-Rep has different setups in terms of hardware, security systems, network capacities, maintenance, and different resources at their disposal. We recommend doing your own research which should be based on P-Rep’s technical capabilities, social activity such as participation and support of the ICON project, core team, stake size, and reputation."
+        ]
+      }
+    }
+  },
+  "ksm": {
+    "howMany": "How many Kusama do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "nebulas": {
+    "howMany": "How many Nebulas do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "dot": {
+    "howMany": "How many Polkadot do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "ada": {
+    "howMany": "How many Cardano do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "swth": {
+    "howMany": "How many Switcheo do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "terra": {
+    "howMany": "How many LUNA do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "sol": {
+    "howMany": "How many Solana do you have?",
+    "rewardCalculator": "Reward calculator - calculate how much you will get",
+    "support": "If you have any questions - get in touch with {supportTeam} for more details."
+  },
+  "cyber": {
+    "mainTitle": "Vote for",
+    "mainSubtitle": "Learn how and why to vote for Everstake, your trustful staking service",
+    "minOwnStaked": "Min own staked",
+    "rewardFee": "Reward fee",
+    "whyVoteParagraph": "Voting in CyberWay will increase your stake and bring you stable yields on assets that otherwise would be just kept on your wallet without bringing extra income. Everstake runs a node, which means it stores all the blockchain data with it. Not only it stabilizes and maximizes the block production rewards, but it also plays a big role in the CyberWay ecosystem's stability.",
+    "nodeParagraph": "Running a CyberWay node requires a powerful machine, stable Internet connection, and perfectly set-up software. Having a  node also needs large storage capabilities. Reliable node operation can only be achieved by a professional software and hardware engineer. If you need to run your own full node, Everstake will set up and keep it for you for a competitive price. Instead of having your node in unpredictable conditions, run it in a world-class data center under the control of specialists."
+  },
+  "aion": {
+    "whatIs": "What is Aion?",
+    "whatIsParagraph": "Aion is the exclusive brand and narrative of the digital asset, focused on establishing itself a leader in the crypto ecosystem. As the economic underpinning of The OAN, Aion is establishing a third category of digital asset, distinct from the narratives of Bitcoin (“State Free Money”) and Ethereum (“Decentralized Internet”), and their alternatives.\nThis category will be supported by bringing together a world-class ecosystem of validators, miners, exchanges, wallets, thought leaders, and organizations that support Aion and its usage in The OAN.",
+    "whyDelegate": "Why delegate AION to Everstake public pool?",
+    "whyDelegateParagraph": "AION has successfully launched Unity — a first-of-its-kind consensus algorithm that integrates Proof of Work with Proof of Stake.\nIn the PoS subsystem of Unity, any coin holder of a system can become a staker and help secure the network and applications that run on top of it, e.g. Velocia.\nEverstake is a public pool operator, we hold a powerfull node that validates PoS blocks according to its stake weight and delegating you coins to our public pool will help you to increase your yields."
+  },
+  "rem": {
+    "whatIs": "What is Remme?",
+    "whatIsParagraph": "The era of PKI controlled by certificate authorities is coming to an end. The evolving needs of enterprises, their increased connectivity, and the enhanced capabilities of ever more sophisticated attackers have necessitated a transition to a more resilient alternative. That alternative resides on the blockchain, where many of the fundamental weaknesses of traditional PKI do not apply. Blockchain is not a security panacea, but in the context of PKI, there are compelling benefits to be had from utilizing a decentralized environment.",
+    "whatIsParagraph2": "Remme Protocol utilizes blockchain technology to replace traditional centralized instances of Public Key Infrastructure with a blockchain-based Network of Trust. How REMME is different? In REMChain, there were introduced a lot of modifications to bring more stability to the network and better relate to REM token economy specifics.",
+    "toMention": "Some of them to mention:",
+    "toMention1": "The number and BP types",
+    "toMention2": "Rotation of 21-25 BP added",
+    "toMention3": "Stake is frozen for 6 months",
+    "toMention4": "The power of the vote is built up gradually to 100% weekly",
+    "toMention5": "Swap and oracle plugins",
+    "toMention6": "Guardians get rewarded from the very start",
+    "whyVote": "Why vote for Everstake BP?",
+    "whyVoteParagraph": "Block Producers are independent and economically incentivized validating nodes that guarantee REMChain decentralization and distribution.",
+    "whyVoteParagraph2": "Everstake has a deep knowledge and expertise in operating EOS-like blockchain nodes and a great team of engineers to solve any kind of task, which makes you confident about network stability and security."
+  },
+  "bet": {
+    "whatIs": "What is DAOBet?",
+    "whatIsParagraph": "DAOBet blockchain base-layer for the iGaming 3.0 industry regulated by technology, ensuring automation of transactions, verifiability and frictionless interactions between all industry participants from players, bankroll stakers to game developers and providers.",
+    "whatIsParagraph2": "DAOBet blockchain provides for applications like DAOPlatform, DAOWallet, and DAOGames the user experience level required for the iGaming industry.",
+    "whatIsParagraph3": "Eversatke as a professional validator support DAOBet ecosystem from the very beginning."
+  },
+  "harmony": {
+    "whyDelegate": "Why delegate Harmony to Everstake validator?",
+    "whyDelegateParagraph": "By delegating your ONE tokens to Everstake you get rewards for your stake increasing the amount of cryptocurrency that you have as opposed to simply holding it with a desire to sell it once the market offers a higher price. Furthermore, active network participants increase the decentralization of the network, making it more stable and robust against different attacks. Running your own node validator not only requires high-end hardware, stable and fast internet connection, well-maintained software but also it takes deep technical knowledge related to node deployment process and maintenance. Our highly-experienced technical team supports the infrastructure that you can rely on without the need to deploy your own node for staking operations.",
+    "howDelegate": "How to delegate Harmony tokens to Everstake?",
+    "howDelegateParagraph": "Considering the fact that new networks may have not many solutions available on the market that allow staking right from a user-friendly wallet, we recommend referring to our {guide} related to ONE staking where you will find complete information on this topic. By the way, in case you can’t get everything up and running you can always request support via our {tgGroup}.",
+    "stepByStepGuide": "step-by-step guide",
+    "tgGroup": "Telegram group",
+    "faq": {
+      "1": {
+        "question": "What is Harmony Staking?",
+        "answer": "In simple words, Harmony staking can be compared to a bank deposit, where you delegate your Harmony tokens to a particular network validator to empower the network decentralization, security, and performance. For this initiative, the network rewards individuals that staked their ONE tokens."
+      },
+      "2": {
+        "question": "Is it secure to stake Harmony?",
+        "answer": "It’s very important to mention that staking doesn’t mean that you are actually sending your tokens to another address, instead your Harmony gets locked up by the network until you decide to unfreeze it later on for personal usage. Once it’s locked, the cryptocurrency can’t be used for any other purpose, except staking that you will be getting rewards for."
+      }
+    }
+  },
+  "addAddress": {
+    "addressRequired": "Address is required",
+    "enterAddress": "Enter your address"
+  },
+  "incomeCalculator": {
+    "holdingValue": "Holding value",
+    "dailyEarning": "Daily earning",
+    "monthlyEarning": "Monthly earning",
+    "yearlyEarning": "Yearly earning"
+  },
+  "stakingPage": {
+    "allYouNeedToKnow": "All You Need To Know About Staking",
+    "sectionOneParagraph": "Currently, there are a lot of blockchains worldwide, and all of them need some kind of user participation to provide consensus. The consensus protocol is a mechanism that allows blockchains to validate and approve or disapprove data and transactions before storing them to make blockchain faultless. There are quite a few different consensus algorithms, and Proof-of-Stake (PoS) and Delegated Proof-of-Stake (DPoS) are the most modern and advanced ones.",
+    "stakingCrypto": "What is Staking in Cryptocurrency?",
+    "sectionTwoParagraph": "To take part in the DPoS process, users save up digital assets to form a 'stake,' and delegate it to those who do all the upkeeping work and get a share of the reward in return. This process is called staking. By staking, you take part in the consensus mechanism, and the wallets that work as staking pools, share a part of their rewards, according to your stake with them.",
+    "sectionTwoParagraphPart2": "Initially, this process required a considerable understanding of staking coins, but currently, there are a lot of staking tools for older blockchains, which makes the process very easy.",
+    "howStakingWork": "How Does Staking Work?",
+    "sectionThreeParagraph": "To start staking coins, you need to select a coin, accumulate enough of it for staking and find yourself a pool. Working with staking services is very straightforward and allows you to forget about all the technical hassles. The pool will provide you with all the stats about your stake and reward share, and its support can assist you in case you have questions.",
+    "sectionThreeParagraphPart2": "Every service has a wallet address for a certain coin, and the only thing you need to do is delegate your stake to it. Once you do it, you are staking!",
+    "isItSafe": "Is it Safe?",
+    "sectionFourParagraph": "Staking is comparable with sending your funds to someone, but don't worry. They can't spend them and you retain full control of them. However, pools will have a possibility to cheat you, give smaller rewards, and use other possibilities of the protocol. Hence, you should always do your own research, and trust only pools that are transparent enough. Check our all the stats, research for the people behind the business and their contacts, check if they have any other blockchain-related businesses.",
+    "whyEverstake": "Why Everstake?",
+    "sectionFiveParagraph": "Everstake is built by professionals who have been cryptocurrency enthusiasts for several years so far. We have great hands-on experience in building blockchain products of all kinds, ranging from small developer tools and comfortable mobile wallets to exchanges and sophisticated business-oriented enterprise level blockchain tools.",
+    "sectionFiveParagraphPart2": "Whether you are an institutional investor or an individual token holder, you can get 5% - 20% profit annually by staking with us. Enjoy transparency and stability of rewards, and our specialists will cover all the maintenance of the enterprise-level hardware.",
+    "sectionFiveParagraphPart3": "Start staking any of the best staking coins with Everstake in minutes:"
+  },
+  "analytics": {
+    "title": "Everstake analytics",
+    "count": "Count",
+    "volume": "Volume",
+    "selectBlockchain": "Select a blockchain",
+    "selectPreferredBlockchain": "Select a preferred blockchain",
+    "selectCoins": "Select coins",
+    "selectMetrics": "Select a metric(s)",
+    "selectPreferredMetrics": "Select a preferred metric(s)",
+    "selectTimespan": "Select timespan",
+    "selectTimespanHour": "Hour",
+    "selectTimespanDay": "Day",
+    "selectTimespanWeek": "Week",
+    "selectTimespanMonth": "Month",
+    "selectTimespanYear": "Year",
+    "selectPreferredTimespan": "Select a preferred timespan",
+    "startDate": "Start date",
+    "selectStartDate": "Select start date",
+    "endDate": "End date",
+    "selectEndDate": "Select end date",
+    "selectDateRange": "Select date range",
+    "dateRange": "Date range",
+    "coins": "Coins",
+    "apply": "Apply",
+    "chooseBlockchainAndTimePeriod": "Choose a blockchain and a time period",
+    "chartActiveAddresses": "Number of active addresses",
+    "chartTotalAddresses": "Total number of addresses",
+    "chartTransactionsCount": "Number of transactions",
+    "chartTransactionVolumes": "Transaction volumes",
+    "chartNoData": "No data",
+    "hour": "One hour",
+    "day": "One day",
+    "week": "One week",
+    "month": "One month",
+    "blocks_stat": "Number of blocks",
+    "accounts_created_stat": "Number of created addresses",
+    "transfers_stats": "Number of transactions",
+    "accounts_total_stat": "Total number of addresses",
+    "accounts_active_stat": "Number of active addresses",
+    "transfers_fee_stats": "Transfers fee",
+    "dapps_total_stats": "Total number of dApps",
+    "dapps_active_stats": "Number of active dApps",
+    "dapps_actions_count_stats": "Number of actions of dApps",
+    "total_supply_stats": "Total supply",
+    "staking_ratio_stats": "Staking ratio",
+    "configLoadWithError": "Can not load metric config. Try later."
+  },
+  "googleFormAnalytics": {
+    "helpUs": "Help us serve you better!",
+    "howHelpful": "How helpful was our analytics tool?",
+    "notHelpful": "Not helpful",
+    "veryHelpful": "Very helpful",
+    "whatBlockchainsToAdd": "What blockchain networks would you like us to add?",
+    "whatMetricsToAdd": "What metrics would you like us to add?",
+    "requiredQuestion": "This is a required question."
+  },
+  "deleteAddressModal": {
+    "deleteAddress": "Delete address",
+    "areYouSure": "Are you sure you want to delete this address: {address}?",
+    "yes": "Yes, delete it",
+    "cancel": "Cancel"
+  },
+  "cardInfo": {
+    "defaultTitle": "No title",
+    "defaultParagraph": "No paragraph"
+  }
+}

@@ -35,7 +35,6 @@ module.exports = (api, options) => {
         staticDir: path.join(__dirname, 'dist'), // The path to the folder where index.html is.
         indexPath: path.join(__dirname, './dist', 'app.html'),
         routes: [
-          '/',
           '/staking',
           '/sign-in',
           '/sign-up',

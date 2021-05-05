@@ -1,6 +1,7 @@
 <template>
   <div class="home" data-view>
-    <TopSection></TopSection>
+    test
+    <!-- <TopSection></TopSection> -->
     <main>
       <!-- <CallToActionSection
         id="waitlist"
@@ -28,7 +29,7 @@
       <!-- <CoinsSection></CoinsSection>
       <AboutSection></AboutSection> -->
 <!--      <FormSection></FormSection>-->
-      <CallToActionSection :title="$t('home.gotIssues')"
+      <!-- <CallToActionSection :title="$t('home.gotIssues')"
                            :text="$t('home.wheneverProblem')">
         <template slot="button">
           <b-button class="btn--black"
@@ -38,7 +39,7 @@
             {{ $t('home.support') }}
           </b-button>
         </template>
-      </CallToActionSection>
+      </CallToActionSection> -->
     </main>
     <!-- <Footer></Footer> -->
   </div>

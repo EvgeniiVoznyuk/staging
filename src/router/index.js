@@ -23,14 +23,8 @@ const Terms = () => import('@/views/Terms/Terms');
 // Coin pages
 const Tezos = () => import('@/views/coins/Tezos');
 const Cosmos = () => import('@/views/coins/Cosmos');
-// const Iost = () => import('@/views/coins/Iost');
-// const Irisnet = () => import('@/views/coins/Irisnet');
-// const Dash = () => import('@/views/coins/Dash');
-// const Iotex = () => import('@/views/coins/Iotex');
 const Icon = () => import('@/views/coins/Icon');
 // Demo coins
-// const Waves = () => import('@/views/coins/demo-coins/Waves');
-// Uncomment when the content for the page is ready
 const Eos = () => import('@/views/coins/demo-coins/Eos');
 const Telos = () => import('@/views/coins/demo-coins/Telos');
 const Near = () => import('@/views/coins/demo-coins/Near');
@@ -38,15 +32,9 @@ const Qtum = () => import('@/views/coins/demo-coins/Qtum');
 const Elrond = () => import('@/views/coins/demo-coins/Elrond');
 const Decred = () => import('@/views/coins/demo-coins/Decred');
 const Ark = () => import('@/views/coins/demo-coins/Ark');
-// const EtherZero = () => import('@/views/coins/demo-coins/EtherZero');
-// const Algorand = () => import('@/views/coins/demo-coins/Algorand');
 const Harmony = () => import('@/views/coins/demo-coins/Harmony');
-// const Nkn = () => import('@/views/coins/demo-coins/Nkn');
-// const Cyberway = () => import('@/views/coins/demo-coins/Cyberway');
 const Terra = () => import('@/views/coins/demo-coins/Terra');
 const Aion = () => import('@/views/coins/demo-coins/Aion');
-// const Remme = () => import('@/views/coins/demo-coins/Remme');
-// const Daobet = () => import('@/views/coins/demo-coins/Daobet');
 const Kusama = () => import('@/views/coins/demo-coins/Kusama');
 const Solana = () => import('@/views/coins/demo-coins/Solana');
 const Nebulas = () => import('@/views/coins/demo-coins/Nebulas');
@@ -68,13 +56,13 @@ const Kichain = () => import('@/views/coins/demo-coins/Kichain');
 // Blog
 const BlogHome = () => import('@/views/blog/BlogHome');
 const BlogPost = () => import('@/views/blog/BlogPost');
+
 // Learning center
 const LearningCenter = () => import('@/views/LearningCenter');
 
 Vue.use(Router);
 
 const router = new Router({
-  // mode: 'hash', // https://router.vuejs.org/api/#mode
   mode: 'history',
   linkActiveClass: 'open active',
   scrollBehavior: () => ({ y: 0 }),
@@ -138,11 +126,6 @@ const router = new Router({
           },
           component: Profile,
         },
-        // {
-        //   path: '/analytics',
-        //   name: 'Analytics',
-        //   component: Analytics,
-        // },
         {
           path: '/tezos',
           name: 'Tezos',
@@ -153,26 +136,6 @@ const router = new Router({
           name: 'Cosmos',
           component: Cosmos,
         },
-        // {
-        //   path: '/iost',
-        //   name: 'IOST',
-        //   component: Iost,
-        // },
-        // {
-        //   path: '/irisnet',
-        //   name: 'IRISnet',
-        //   component: Irisnet,
-        // },
-        // {
-        //   path: '/dash',
-        //   name: 'Dash',
-        //   component: Dash,
-        // },
-        // {
-        //   path: '/waves',
-        //   name: 'Waves',
-        //   component: Waves,
-        // },
         {
           path: '/eos',
           name: 'Eos',
@@ -220,31 +183,11 @@ const router = new Router({
           name: 'ARK',
           component: Ark,
         },
-        // {
-        //   path: '/ether-zero',
-        //   name: 'EtherZero',
-        //   component: EtherZero,
-        // },
-        // {
-        //   path: '/iotex',
-        //   name: 'IoTeX',
-        //   component: Iotex,
-        // },
-        // {
-        //   path: '/algorand',
-        //   name: 'Algorand',
-        //   component: Algorand,
-        // },
         {
           path: '/harmony',
           name: 'Harmony',
           component: Harmony,
         },
-        // {
-        //   path: '/nkn',
-        //   name: 'NKN',
-        //   component: Nkn,
-        // },
         {
           path: '/icon',
           name: 'ICON',
@@ -253,11 +196,6 @@ const router = new Router({
             coinCode: 'icx',
           },
         },
-        // {
-        //   path: '/cyberway',
-        //   name: 'CyberWay',
-        //   component: Cyberway,
-        // },
         {
           path: '/terra',
           name: 'Terra',
@@ -271,16 +209,6 @@ const router = new Router({
           name: 'Aion',
           component: Aion,
         },
-        // {
-        //   path: '/remme',
-        //   name: 'Remme',
-        //   component: Remme,
-        // },
-        // {
-        //   path: '/daobet',
-        //   name: 'DAOBet',
-        //   component: Daobet,
-        // },
         {
           path: '/kusama',
           name: 'Kusama',
@@ -419,7 +347,7 @@ const router = new Router({
     {
       path: '/',
       name: 'Home',
-      component: StakingPage,
+      component: Home,
     },
     {
       path: '/staking',

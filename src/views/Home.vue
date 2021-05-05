@@ -2,7 +2,7 @@
   <div class="home" data-view>
     <TopSection></TopSection>
     <main>
-      <CallToActionSection
+      <!-- <CallToActionSection
         id="waitlist"
         :title="$t('home.readyToStake')"
         :text="$t('home.subscribeToReceive')">
@@ -14,9 +14,9 @@
           {{ $t('home.getStarted') }}
         </b-button>
       </template>
-      </CallToActionSection>
-      <StatisticsSection></StatisticsSection>
-      <CallToActionSection :title="$t('home.stayUpdated')"
+      </CallToActionSection> -->
+      <!-- <StatisticsSection></StatisticsSection> -->
+      <!-- <CallToActionSection :title="$t('home.stayUpdated')"
                            :text="$t('home.takeAdvantage')">
         <template slot="button">
           <b-button class="btn--black"
@@ -24,9 +24,9 @@
             {{ $t('home.tryNow') }}
           </b-button>
         </template>
-      </CallToActionSection>
-      <CoinsSection></CoinsSection>
-      <AboutSection></AboutSection>
+      </CallToActionSection> -->
+      <!-- <CoinsSection></CoinsSection>
+      <AboutSection></AboutSection> -->
 <!--      <FormSection></FormSection>-->
       <CallToActionSection :title="$t('home.gotIssues')"
                            :text="$t('home.wheneverProblem')">
@@ -40,7 +40,7 @@
         </template>
       </CallToActionSection>
     </main>
-    <Footer></Footer>
+    <!-- <Footer></Footer> -->
   </div>
 </template>
 
@@ -48,11 +48,11 @@
 // @ is an alias to /src
 import { mapGetters } from 'vuex';
 import TopSection from '@/components/home/sections/TopSection.vue';
-import StatisticsSection from '@/components/home/sections/StatisticsSection.vue';
-import CoinsSection from '@/components/home/sections/CoinsSection.vue';
-import AboutSection from '@/components/home/sections/AboutSection.vue';
+// import StatisticsSection from '@/components/home/sections/StatisticsSection.vue';
+// import CoinsSection from '@/components/home/sections/CoinsSection.vue';
+// import AboutSection from '@/components/home/sections/AboutSection.vue';
 // import FormSection from '@/components/home/sections/FormSection.vue';
-import Footer from '@/components/Footer.vue';
+// import Footer from '@/components/Footer.vue';
 import CallToActionSection from '@/components/home/sections/CallToActionSection.vue';
 import { initMail } from '@/plugins/mixins/initMail';
 
@@ -60,11 +60,11 @@ export default {
   name: 'home',
   components: {
     TopSection,
-    StatisticsSection,
-    CoinsSection,
-    AboutSection,
+    // StatisticsSection,
+    // CoinsSection,
+    // AboutSection,
     // FormSection,
-    Footer,
+    // Footer,
     CallToActionSection,
   },
   mixins: [initMail],

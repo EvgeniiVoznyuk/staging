@@ -419,7 +419,7 @@ const router = new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home,
+      component: StakingPage,
     },
     {
       path: '/staking',
